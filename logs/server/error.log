@@ -2017,3 +2017,70 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-11T15:47:13.253Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T16:01:56.281Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundonotesdb.users index: email_1 dup key: { email: "sai@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-11T16:02:06.475Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T16:02:06.495Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundonotesdb.users index: email_1 dup key: { email: "sai@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-11T16:02:10.786Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T16:02:10.790Z"}
