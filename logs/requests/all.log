@@ -1,2 +1,98 @@
 info: ::1 - - [11/Nov/2022:08:36:40 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [11/Nov/2022:10:33:00 +0000] "POST /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:33:03 +0000] "POST /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:33:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 71 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:33:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 91 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:34:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 265 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:37:56 +0000] "GET /api/v1/users/login/sid18@gmail.com HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:38:18 +0000] "GET /api/v1/users/login/sid18@gmail.com HTTP/1.1" 200 265 "-" "PostmanRuntime/7.29.2"
+
+error: uncaughtException: Cannot read properties of undefined (reading '$elemMatch')
+TypeError: Cannot read properties of undefined (reading '$elemMatch')
+    at model.Query._castFields (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4981:23)
+    at model.Query.<anonymous> (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2240:23)
+    at model.Query._wrappedThunk [as _findOne] (E:\express\fundo-notes-project\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at E:\express\fundo-notes-project\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Nov 11 2022 16:12:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":28734},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19201920,"external":23769406,"heapTotal":83435520,"heapUsed":51639048,"rss":117813248},"pid":15848,"uid":null,"version":"v16.18.0"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading '$elemMatch')
+TypeError: Cannot read properties of undefined (reading '$elemMatch')
+    at model.Query._castFields (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4981:23)
+    at model.Query.<anonymous> (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2240:23)
+    at model.Query._wrappedThunk [as _findOne] (E:\express\fundo-notes-project\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at E:\express\fundo-notes-project\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Nov 11 2022 16:13:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":28762},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19092481,"external":30824075,"heapTotal":79515648,"heapUsed":48081576,"rss":110997504},"pid":19332,"uid":null,"version":"v16.18.0"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: ::1 - - [11/Nov/2022:10:43:56 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:44:58 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@2 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:45:03 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@ HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:45:09 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:45:17 +0000] "GET /api/v1/users/login/sid18@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:47:43 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:47:55 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:47:58 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:48:07 +0000] "GET /api/v1/users HTTP/1.1" 200 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:49:54 +0000] "GET /api/v1/users/sid18@gmail.com/Rohit@20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:50:40 +0000] "GET /api/v1/users/sid18@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:50:45 +0000] "GET /api/v1/users/sid18@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:51:03 +0000] "GET /api/v1/users/sid18@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:51:05 +0000] "GET /api/v1/users/sid18@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:51:07 +0000] "GET /api/v1/users/sid18@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:51:27 +0000] "GET /api/v1/users/login/sid18@gmail.com HTTP/1.1" 200 256 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:56:19 +0000] "GET /api/v1/users/login/sid18@gmail.com/srtas HTTP/1.1" 200 74 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:10:56:35 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 265 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:25:04 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 265 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:25:10 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@ HTTP/1.1" 200 74 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:26:09 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@ HTTP/1.1" 200 74 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:26:17 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:26:47 +0000] "GET /api/v1/users/login/sid18@gmail.com/Rohit@20 HTTP/1.1" 200 265 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:11:28:49 +0000] "POST /api/v1/users/register/ HTTP/1.1" 201 265 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:28:48 +0000] "GET /api/v1/users HTTP/1.1" 200 480 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:29:25 +0000] "DELETE /api/v1/users/636e31f100240c4c205cc570 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:29:41 +0000] "GET /api/v1/users/636e31f100240c4c205cc570 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:29:47 +0000] "GET /api/v1/users HTTP/1.1" 200 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:30:21 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:33:33 +0000] "GET /api/v1/users HTTP/1.1" 200 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:33:49 +0000] "GET /api/v1/users HTTP/1.1" 200 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:42:11 +0000] "GET /api/v1/users HTTP/1.1" 200 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:43:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 274 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:12:43:15 +0000] "GET /api/v1/users HTTP/1.1" 200 489 "-" "PostmanRuntime/7.29.2"
+

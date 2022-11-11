@@ -2,3 +2,172 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T0
 info: Connected to the database. {"timestamp":"2022-11-11T08:33:53.590Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T08:36:06.615Z"}
 info: Connected to the database. {"timestamp":"2022-11-11T08:36:06.640Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:30:32.441Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:30:32.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:32:50.077Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:32:50.105Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:7:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T10:33:11.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:33:33.453Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:33:33.478Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'required')
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:7:22)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T10:33:34.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:34:49.889Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:34:49.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:36:13.363Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:36:13.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:36:33.797Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:36:33.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:37:01.546Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:37:01.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:37:26.061Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:37:26.085Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login/sid18@gmail.com 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-11T10:37:56.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:38:11.450Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:38:11.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:39:21.099Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:39:21.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:41:31.697Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:41:31.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:42:29.220Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:42:29.241Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '$elemMatch')
+TypeError: Cannot read properties of undefined (reading '$elemMatch')
+    at model.Query._castFields (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4981:23)
+    at model.Query.<anonymous> (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2240:23)
+    at model.Query._wrappedThunk [as _findOne] (E:\express\fundo-notes-project\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at E:\express\fundo-notes-project\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Nov 11 2022 16:12:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":28734},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19193704,"external":23761150,"heapTotal":83435520,"heapUsed":51578664,"rss":117207040},"pid":15848,"uid":null,"version":"v16.18.0"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-11-11T10:42:44.931Z","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:43:04.971Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:43:04.995Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '$elemMatch')
+TypeError: Cannot read properties of undefined (reading '$elemMatch')
+    at model.Query._castFields (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4981:23)
+    at model.Query.<anonymous> (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2240:23)
+    at model.Query._wrappedThunk [as _findOne] (E:\express\fundo-notes-project\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at E:\express\fundo-notes-project\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Nov 11 2022 16:13:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":28762},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19084265,"external":30815819,"heapTotal":79515648,"heapUsed":48016656,"rss":110428160},"pid":19332,"uid":null,"version":"v16.18.0"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-11-11T10:43:12.684Z","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:43:48.083Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:43:48.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:47:30.631Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:47:30.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:47:53.506Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:47:53.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:50:36.204Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:50:36.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:51:02.588Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:51:02.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:51:44.978Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:51:44.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:52:03.967Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:52:03.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:55:16.699Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:55:16.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:55:24.576Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:55:24.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:55:57.071Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:55:57.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:56:00.438Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:56:00.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:56:03.883Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:56:03.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T10:56:11.744Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T10:56:11.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T11:24:50.707Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T11:24:50.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T12:28:30.145Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T12:28:30.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T12:33:26.318Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T12:33:26.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-11T12:42:02.953Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T12:42:02.980Z"}
