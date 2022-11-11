@@ -7,9 +7,19 @@ export const getAllUsers = async () => {
 };
 
 //create new user
-export const newUser = async (body) => {
+export const newUserRegistration = async (body) => {
   const data = await User.create(body);
   return data;
+};
+
+//login user
+export const loginUser = async (body) => {
+  let email = body.email;
+  let password = body.password;
+  const data = await User.find({ email: email, password: password });
+  console.log(data);
+  return data;
+
 };
 
 //update single user

@@ -45,9 +45,9 @@ export const getUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
+export const newUserRegistration = async (req, res, next) => {
   try {
-    const data = await UserService.newUser(req.body);
+    const data = await UserService.newUserRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -90,6 +90,26 @@ export const deleteUser = async (req, res, next) => {
       code: HttpStatus.OK,
       data: [],
       message: 'User deleted successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+
+/**
+ * Controller to create a new user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const loginUser = async (req, res, next) => {
+  try {
+    const data = await UserService.loginUser(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'Login'
     });
   } catch (error) {
     next(error);

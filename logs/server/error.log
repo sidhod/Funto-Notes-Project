@@ -107,3 +107,1913 @@ TypeError: Cannot read properties of undefined (reading '$elemMatch')
     at model.Query._wrappedThunk [as _findOne] (E:\express\fundo-notes-project\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
     at E:\express\fundo-notes-project\node_modules\kareem\index.js:370:33
     at processTicksAndRejections (node:internal/process/task_queues:78:11) {"date":"Fri Nov 11 2022 16:13:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":28762},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19084265,"external":30815819,"heapTotal":79515648,"heapUsed":48016656,"rss":110428160},"pid":19332,"uid":null,"version":"v16.18.0"},"stack":"TypeError: Cannot read properties of undefined (reading '$elemMatch')\n    at model.Query._castFields (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:4981:23)\n    at model.Query.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js:2240:23)\n    at model.Query._wrappedThunk [as _findOne] (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:16:8)\n    at E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js:370:33\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)","timestamp":"2022-11-11T10:43:12.684Z","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":"model.Query._castFields","line":4981,"method":"_castFields","native":false},{"column":23,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\query.js","function":null,"line":2240,"method":null,"native":false},{"column":8,"file":"E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js","function":"model.Query._wrappedThunk [as _findOne]","line":16,"method":"_wrappedThunk [as _findOne]","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\kareem\\index.js","function":null,"line":370,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":78,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-11T13:14:21.120Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got rohit2018@gmail.com
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:28)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:15:20.534Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:16:41.254Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 40
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundo-notes-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:16:58.521Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:17:04.330Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:17:06.819Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:17:35.323Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:18:24.902Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:18:31.809Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:21:56.459Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-11T13:22:46.953Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:22:52.147Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:23:12.402Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:13:9)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:25:40.515Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:13:9)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:33:10.691Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:13:9)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:33:13.240Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:33:50.848Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:13:9)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:36:21.560Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:13:9)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:40:05.955Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Email is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:8)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:40:48.430Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:109:34)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:41:25.582Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:53:22.646Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:54:05.118Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:57:23.571Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:58:41.900Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:58:43.838Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:58:45.280Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T13:59:29.842Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:01:00.741Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:01:02.529Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:01:16.451Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:03:07.222Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got sid18@gmail.com
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:18:28)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.loginUser (E:\express\fundo-notes-project\src\services\/user.service.js:17:23)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:108:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at loginUser (E:\express\fundo-notes-project\src\controllers\/user.controller.js:106:23)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:03:51.779Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:10:13.297Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:12:26.543Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:12:28.529Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:12:36.023Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at loginValidator (E:\express\fundo-notes-project\src\validators\/login.validator.js:9:17)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:12:37.555Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 34
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundo-notes-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:13:36.924Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:30:47.857Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:31:16.183Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'logins' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-11T14:32:47.032Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password1 is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:21:26)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:04:46.685Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:19:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:05:58.904Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:19:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:06:01.085Z"}
+error: 
+    status - 500 
+    message - ReferenceError: password is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:19:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:06:02.270Z"}
+error: 
+    status - 500 
+    message - Error: "database" is read-only.
+    at E:\express\fundo-notes-project\src\services\/user.service.js:20:22
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:20:22)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:08:05.398Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:109:26)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:10:05.673Z"}
+error: 
+    status - 500 
+    message - ReferenceError: myCursor is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:21:7)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:43:42.930Z"}
+error: 
+    status - 500 
+    message - TypeError: data.hasNext is not a function
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:21:25)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:44:30.781Z"}
+error: 
+    status - 500 
+    message - TypeError: data.hasNext is not a function
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:21:25)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:46:06.775Z"}
+error: 
+    status - 500 
+    message - TypeError: data.password is not a function
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:21:25)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-11T15:47:13.253Z"}
