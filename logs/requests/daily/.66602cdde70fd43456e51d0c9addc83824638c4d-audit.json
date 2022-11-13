@@ -11,9 +11,15 @@
             "hash": "a2779e76ad1ce49e4e88c920fabaae7a92741a5a6c870aef9da82fcb3206024e"
         },
         {
+<<<<<<< HEAD
             "date": 1668223384624,
             "name": "logs\\requests\\daily\\2022-11-12.log",
             "hash": "3adcf6b16e1166c81497b0782663a183b3127a7aff526c63913cbd68b589016c"
+=======
+            "date": 1668219692967,
+            "name": "logs\\requests\\daily\\2022-11-12.log",
+            "hash": "182704838c4ec69d411a37950ce9849c8100e985c55edf5199706b59b6bd0a8e"
+>>>>>>> main
         }
     ],
     "hashType": "sha256"
