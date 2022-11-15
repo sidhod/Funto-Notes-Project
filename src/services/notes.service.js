@@ -4,3 +4,7 @@ export const addNote = async (body) => {
     const data = await User.create(body);
     return data;
 };
+export const allNotes = async () => {
+    const data = await User.find();
+    return data;
+};
