@@ -40,3 +40,11 @@ info: ::1 - - [15/Nov/2022:05:37:26 +0000] "GET /api/v1/notes HTTP/1.1" 200 503 
 
 info: ::1 - - [15/Nov/2022:05:37:36 +0000] "GET /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 200 275 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [15/Nov/2022:05:55:27 +0000] "PUT /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:05:55:28 +0000] "PUT /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:05:55:49 +0000] "PUT /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 202 278 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:05:55:57 +0000] "PUT /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 202 279 "-" "PostmanRuntime/7.29.2"
+
