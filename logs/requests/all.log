@@ -900,3 +900,5 @@ info: ::1 - - [15/Nov/2022:04:32:11 +0000] "GET /api/v1/users HTTP/1.1" 200 1497
 
 info: ::1 - - [15/Nov/2022:04:33:11 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 227 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [15/Nov/2022:05:00:12 +0000] "POST /api/v1/notes HTTP/1.1" 201 275 "-" "PostmanRuntime/7.29.2"
+

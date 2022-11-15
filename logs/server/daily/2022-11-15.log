@@ -83,3 +83,7 @@ error:
    {"timestamp":"2022-11-15T03:50:23.030Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T04:30:40.164Z"}
 info: Connected to the database. {"timestamp":"2022-11-15T04:30:40.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T04:56:21.727Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T04:56:21.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T05:00:26.854Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T05:00:26.879Z"}
