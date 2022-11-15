@@ -9,7 +9,10 @@ export const newUserValidator = (req, res, next) => {
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   } else {
     req.validatedBody = value;
     next();

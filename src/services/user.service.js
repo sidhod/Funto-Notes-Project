@@ -1,5 +1,7 @@
+import { empty } from '@hapi/joi/lib/base';
 import User from '../models/user.model';
-
+const bcrypt = require('bcrypt');
+var jwt = require('jsonwebtoken');
 
 //get all users
 export const getAllUsers = async () => {
@@ -19,10 +21,22 @@ export const newUserRegistration = async (body) => {
 //login user
 export const loginUser = async (body) => {
   let email = body.email;
-  let password = body.password;
-  const data = await User.find({ email: email, password: password });
+  let data = await User.find({ email: email });
+  console.log(data.password);
   console.log(data);
-  return data;
+  if (data.length !== 0) {
+    let passwordvalidator = await bcrypt.compare(body.password, data[0].password);
+    if (passwordvalidator) {
+      let token = jwt.sign({ email: data[0].email, firstName: data[0].firstName, lastName: data[0].lastName }, process.env.SECRET_KEY);
+      return token;
+    } else {
+      throw new Error('Password Is incorrect.....');
+    }
+
+  } else {
+    throw new Error('Email Is incorrect.....');
+
+  }
 
 };
 

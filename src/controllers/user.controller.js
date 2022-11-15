@@ -1,3 +1,4 @@
+import { template } from '@hapi/joi/lib/errors';
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
@@ -105,11 +106,12 @@ export const deleteUser = async (req, res, next) => {
  */
 export const loginUser = async (req, res, next) => {
   try {
+    console.log("details", req);
     const data = await UserService.loginUser(req.body);
+
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'Login'
     });
   } catch (error) {
     next(error);

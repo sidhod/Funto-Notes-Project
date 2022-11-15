@@ -2413,3 +2413,1229 @@ error:
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-12T07:06:27.415Z"}
 info: Connected to the database. {"timestamp":"2022-11-12T07:06:27.457Z"}
 >>>>>>> main
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:32:12.090Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:32:12.131Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:15)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:32:34.629Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:15)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:32:39.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:33:20.251Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:33:20.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:33:59.556Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:33:59.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:34:40.679Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:34:40.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:37:02.231Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:37:02.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:37:33.806Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:37:33.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:38:03.810Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:38:03.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:39:49.017Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:39:49.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:40:13.580Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:40:13.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:42:59.254Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:42:59.280Z"}
+error: 
+    status - 500 
+    message - ReferenceError: filters is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:42:59.649Z"}
+error: 
+    status - 500 
+    message - ReferenceError: filters is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:43:03.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:43:18.721Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:43:18.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:43:42.544Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:43:42.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:46:47.243Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:46:47.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:47:17.152Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:47:17.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:47:53.272Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:47:53.297Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:47:54.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:49:55.059Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:49:55.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:50:29.986Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:50:30.010Z"}
+error: 
+    status - 500 
+    message - ReferenceError: value is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:20)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:50:31.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:51:13.979Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:51:14.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:51:26.881Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:51:26.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:52:11.864Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:52:11.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:52:20.187Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:52:20.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:53:40.442Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:53:40.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:54:14.934Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:54:14.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:54:38.477Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:54:38.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:56:27.512Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:56:27.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T08:59:15.971Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T08:59:15.998Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not a function
+    at Array.map (<anonymous>)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:20)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:59:18.476Z"}
+error: 
+    status - 500 
+    message - TypeError: undefined is not a function
+    at Array.map (<anonymous>)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:20)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T08:59:24.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:02:16.057Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:02:16.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:10:33.889Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:10:33.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:11:45.313Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:11:45.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:12:19.801Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:12:19.829Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:7)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T09:12:24.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:13:12.387Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:13:12.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:13:46.884Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:13:46.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:14:24.800Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:14:24.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:16:12.041Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:16:12.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:17:04.598Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:17:04.640Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:17:25.545Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:17:25.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:19:40.671Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:19:40.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:20:56.333Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:20:56.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T09:21:44.373Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T09:21:44.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:10:44.191Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\fundo-notes-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (E:\\express\\fundo-notes-project\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","timestamp":"2022-11-13T14:11:14.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:11:50.725Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\fundo-notes-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-13T14:12:20.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:13:02.035Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:13:02.062Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:66)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:13:22.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:15:06.391Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:15:06.414Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:58)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:15:10.822Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:58)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:15:31.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:15:38.095Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:15:38.120Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:58)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:15:42.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:16:14.631Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:16:14.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:17:41.830Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:17:41.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:18:48.615Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:18:48.638Z"}
+error: 
+    status - 500 
+    message - TypeError: "data" is read-only
+    at _readOnlyError (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\readOnlyError.js:2:9)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:24:16)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:18:51.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:19:04.891Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:19:04.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:19:35.100Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:19:35.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:19:54.566Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:19:54.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:20:03.722Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:20:03.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:20:24.759Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:20:24.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:21:10.783Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:21:10.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:21:54.838Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:21:54.861Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:22:18.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:24:20.865Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:24:20.890Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:27:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:24:25.751Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:27:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:24:27.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T14:28:08.507Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T14:28:08.531Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:28:09.737Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:28:11.253Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:29:32.080Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundonotesdb.users index: email_1 dup key: { email: "sid18@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-13T14:34:19.995Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T14:34:20.012Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/register 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-13T14:34:29.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:05:53.551Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:05:53.575Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:68)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:06:14.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:07:30.013Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:07:30.038Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:07:33.516Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:07:35.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:12:05.842Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:12:05.870Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:12:06.473Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:12:07.762Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:12:09.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:17:08.191Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:17:08.225Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:17:08.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:18:39.002Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:18:39.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:19:20.216Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:19:20.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:19:35.775Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:19:35.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:20:03.307Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:20:03.334Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:20:29.937Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:25:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:21:23.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:22:14.155Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:22:14.182Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:22:30.886Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:22:54.032Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:23:05.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:24:31.646Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:24:31.696Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:24:39.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:26:11.906Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:26:11.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:27:20.453Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:27:20.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:27:43.254Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:27:43.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:28:13.523Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:28:13.545Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:28:21.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:29:00.460Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:29:00.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:29:09.745Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:29:09.769Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:26:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:29:52.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:30:38.861Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:30:38.887Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:28:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:30:47.778Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:28:73)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-13T15:30:49.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:36:16.120Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:36:16.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:41:18.944Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:41:18.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:41:49.067Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:41:49.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T15:44:26.227Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T15:44:26.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-13T16:11:23.451Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T16:11:23.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T02:51:22.965Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T02:51:23.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T08:45:51.590Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T08:45:52.133Z"}
+error: 
+    status - 500 
+    message - Error: Login Successsfully
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T08:46:05.472Z"}
+error: 
+    status - 500 
+    message - Error: Login Successsfully
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T08:46:08.778Z"}
+error: 
+    status - 500 
+    message - Error: Login Successsfully
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T08:46:11.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T08:47:26.945Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T08:47:27.004Z"}
+error: 
+    status - 500 
+    message - Error: Login Successsfully
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T08:47:38.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T08:48:27.244Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T08:48:27.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T08:49:39.236Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T08:49:39.297Z"}
+error: 
+    status - 500 
+    message - Error: Password Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:32:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T08:49:54.722Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:37:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T08:50:05.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:09:10.024Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:09:10.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:13:36.100Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:13:36.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:14:05.982Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:14:06.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:14:51.009Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:14:51.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:16:32.613Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:16:32.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:19:01.798Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:19:01.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:32:28.734Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:32:28.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:33:01.444Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:33:01.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:34:40.180Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:34:40.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:35:10.237Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:35:10.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:38:09.524Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:38:09.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:38:19.764Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:38:19.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:41:02.321Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:41:02.375Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T09:57:59.239Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T09:57:59.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:01:06.536Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:01:06.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:01:49.911Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:01:49.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:11:03.291Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:11:03.313Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:13:48.370Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:13:48.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:15:15.558Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:15:15.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:16:51.072Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:16:51.096Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.addNote is not a function
+    at _callee$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:12:40)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at addNote (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:10:21)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (E:\express\fundo-notes-project\src\validators\/notes.validator.js:14:9)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:17:16.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:19:51.357Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:19:51.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:24:45.094Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:24:45.140Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:27:20.911Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:27:27.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:27:56.136Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:27:56.166Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:28:04.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:28:56.044Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:28:56.069Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:28:58.217Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:28:59.652Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:29:12.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:29:35.030Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:29:35.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:30:23.718Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:30:23.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:30:41.434Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:30:41.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:31:02.326Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:31:02.358Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:31:05.025Z"}
+error: 
+    status - 500 
+    message - TypeError: secret must be a string or bufferor a KeyObject
+    at typeError (E:\express\fundo-notes-project\node_modules\jwa\index.js:115:10)
+    at checkIsSecretKey (E:\express\fundo-notes-project\node_modules\jwa\index.js:82:11)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jwa\index.js:130:5)
+    at Object.jwsSign [as sign] (E:\express\fundo-notes-project\node_modules\jws\lib\sign-stream.js:32:24)
+    at Object.sign (E:\express\fundo-notes-project\node_modules\jsonwebtoken\sign.js:204:16)
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:30:23)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-14T10:31:06.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:31:27.035Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:31:27.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:34:39.735Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:34:39.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:39:41.581Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:39:41.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:43:10.851Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:43:10.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:43:27.353Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:43:27.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T10:44:38.604Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T10:44:38.631Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T11:53:52.145Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T11:53:52.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T11:56:08.567Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T11:56:08.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T11:58:28.644Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T11:58:28.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T11:59:56.320Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T11:59:56.361Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\express\fundo-notes-project\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\express\fundo-notes-project\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (E:\express\fundo-notes-project\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at param (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12) 
+    url - /api/v1/users/636e5cd6199b1b4dd83d0388 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-14T11:59:58.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:00:13.132Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:00:13.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:02:35.892Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:02:35.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:03:38.716Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:03:38.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:04:27.474Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:04:27.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:04:55.273Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:04:55.315Z"}
+error: uncaughtException: notesRoute is not defined
+ReferenceError: notesRoute is not defined
+    at routes (E:\express\fundo-notes-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\express\fundo-notes-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {"date":"Mon Nov 14 2022 17:35:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8360},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19071100,"external":22756149,"heapTotal":84525056,"heapUsed":56647728,"rss":118149120},"pid":14060,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: notesRoute is not defined\n    at routes (E:\\express\\fundo-notes-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47","timestamp":"2022-11-14T12:05:10.791Z","trace":[{"column":24,"file":"E:\\express\\fundo-notes-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\express\\fundo-notes-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":22,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:06:03.884Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:06:03.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:29:08.865Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:29:08.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:29:27.983Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:29:28.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:36:47.133Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:36:47.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-14T12:36:56.290Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:36:56.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T02:30:34.036Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T02:30:34.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T02:58:53.469Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T02:58:53.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:09:17.203Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:09:17.232Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:10:02.219Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:10:02.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:11:21.915Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:11:21.945Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Descreption" is required 
+    url - /api/v1/notes/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-15T03:11:26.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:18:07.460Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:18:07.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:19:34.675Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:19:34.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:20:07.541Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:20:07.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:35:46.770Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:35:46.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:43:15.698Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:43:15.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:47:15.351Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:47:15.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:49:03.966Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:49:03.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:49:13.782Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:49:13.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:49:30.452Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:49:30.475Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:49:54.298Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:49:54.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T03:50:08.465Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T03:50:08.494Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newNotesValidator (E:\express\fundo-notes-project\src\validators\/notes.validator.js:11:20)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-15T03:50:23.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-15T04:30:40.164Z"}
+info: Connected to the database. {"timestamp":"2022-11-15T04:30:40.258Z"}
