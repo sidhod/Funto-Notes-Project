@@ -22,6 +22,9 @@ export const userAuth = async (req, res, next) => {
     const { user } = await jwt.verify(bearerToken, process.env.SECRET_KEY);
     next();
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };

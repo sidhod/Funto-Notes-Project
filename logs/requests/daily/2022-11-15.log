@@ -36,3 +36,7 @@ info: ::1 - - [15/Nov/2022:05:11:04 +0000] "GET /api/v1/notes HTTP/1.1" 200 503 
 
 info: ::1 - - [15/Nov/2022:05:27:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 503 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [15/Nov/2022:05:37:26 +0000] "GET /api/v1/notes HTTP/1.1" 200 503 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:05:37:36 +0000] "GET /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 200 275 "-" "PostmanRuntime/7.29.2"
+

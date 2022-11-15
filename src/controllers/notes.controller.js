@@ -2,7 +2,7 @@ import { template } from '@hapi/joi/lib/errors';
 import HttpStatus from 'http-status-codes';
 import * as NotesService from '../services/notes.service';
 /**
- * Controller to create a new user
+ * Controller to create a new note
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -20,7 +20,7 @@ export const addNote = async (req, res, next) => {
     }
 };
 /**
- * Controller to get all users available
+ * Controller to get all notes
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -32,6 +32,25 @@ export const allNotes = async (req, res, next) => {
             code: HttpStatus.OK,
             data: data,
             message: 'All notes fetched successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
+ * Controller to get a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getNote = async (req, res, next) => {
+    try {
+        const data = await NotesService.getNote(req.params._id);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'User fetched successfully'
         });
     } catch (error) {
         next(error);
