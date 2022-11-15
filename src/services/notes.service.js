@@ -29,3 +29,9 @@ export const updateNote = async (_id, body) => {
     );
     return data;
 };
+
+//delete single user
+export const deleteNote = async (id) => {
+    await User.findByIdAndDelete(id);
+    return '';
+};

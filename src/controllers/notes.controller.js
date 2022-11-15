@@ -56,7 +56,12 @@ export const getNote = async (req, res, next) => {
         next(error);
     }
 };
-
+/**
+ * Controller to update note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
 export const updateNote = async (req, res, next) => {
     try {
         const data = await NotesService.updateNote(req.params._id, req.body);
@@ -64,6 +69,25 @@ export const updateNote = async (req, res, next) => {
             code: HttpStatus.ACCEPTED,
             data: data,
             message: 'Note updated successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+/**
+ * Controller to delete a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const deleteNote = async (req, res, next) => {
+    try {
+        await NotesService.deleteNote(req.params._id);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: [],
+            message: 'Note deleted successfully'
         });
     } catch (error) {
         next(error);

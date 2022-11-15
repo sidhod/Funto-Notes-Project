@@ -11,9 +11,12 @@ router.post('', newNotesValidator, userAuth, notesController.addNote);
 //route to get all a notes
 router.get('', userAuth, notesController.allNotes);
 
-//route to get a single note by their user id
+//route to get a single note by their note id
 router.get('/:_id', userAuth, notesController.getNote);
 
 //route to update a single note by their note id
 router.put('/:_id', notesController.updateNote);
+
+//route to delete a single note by their note id
+router.delete('/:_id', notesController.deleteNote);
 export default router;

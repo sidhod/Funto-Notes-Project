@@ -924,3 +924,21 @@ info: ::1 - - [15/Nov/2022:05:55:49 +0000] "PUT /api/v1/notes/63731cdba61e3b382c
 
 info: ::1 - - [15/Nov/2022:05:55:57 +0000] "PUT /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 202 279 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [15/Nov/2022:06:09:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 279 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:09:21 +0000] "DELETE /api/v1/notes/63732d05d7163424b419b0e3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:09:32 +0000] "GET /api/v1/notes HTTP/1.1" 200 507 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:09:56 +0000] "POST /api/v1/notes HTTP/1.1" 201 279 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:10:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 729 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:10:18 +0000] "POST /api/v1/notes HTTP/1.1" 201 279 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:10:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 951 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:10:49 +0000] "DELETE /api/v1/notes/63731cdba61e3b382c9ba94c HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [15/Nov/2022:06:10:57 +0000] "GET /api/v1/notes HTTP/1.1" 200 729 "-" "PostmanRuntime/7.29.2"
+
