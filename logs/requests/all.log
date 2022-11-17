@@ -1444,3 +1444,13 @@ info: ::1 - - [17/Nov/2022:08:30:50 +0000] "PUT /api/v1/notes/6375ef20fc3cdc37ac
 
 info: ::1 - - [17/Nov/2022:08:30:59 +0000] "PUT /api/v1/notes/6375ef20fc3cdc37ac045b88/trash HTTP/1.1" 200 309 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [17/Nov/2022:08:34:16 +0000] "GET /api/v1/notes HTTP/1.1" 200 558 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:08:34:52 +0000] "PUT /api/v1/notes/6375d92008973f5018887e87 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:08:35:27 +0000] "PUT /api/v1/notes/6375d92008973f5018887e87 HTTP/1.1" 202 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:08:35:42 +0000] "PUT /api/v1/notes/6375d92008973f5018887e87 HTTP/1.1" 202 306 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:08:35:49 +0000] "PUT /api/v1/notes/6375d92008973f5018887e87 HTTP/1.1" 202 304 "-" "PostmanRuntime/7.29.2"
+

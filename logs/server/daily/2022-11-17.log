@@ -952,3 +952,43 @@ error:
    {"timestamp":"2022-11-17T08:29:33.020Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T08:30:26.991Z"}
 info: Connected to the database. {"timestamp":"2022-11-17T08:30:27.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T08:34:09.133Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T08:34:09.155Z"}
+error: 
+    status - 500 
+    message - ReferenceError: id is not defined
+    at _callee5$ (E:\express\fundo-notes-project\src\services\/notes.service.js:27:18)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNote (E:\express\fundo-notes-project\src\services\/notes.service.js:24:24)
+    at _callee4$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:67:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateNote (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:65:24)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d92008973f5018887e87 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T08:34:52.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T08:35:22.247Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T08:35:22.279Z"}

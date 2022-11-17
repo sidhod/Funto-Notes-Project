@@ -21,10 +21,11 @@ export const deleteNote = async (id, UserID) => {
     return '';
 };
 //update single Note
-export const updateNote = async (_id, body) => {
+export const updateNote = async (id, UserID, body) => {
     const data = await User.findByIdAndUpdate(
         {
-            _id,
+            _id: id,
+            UserID: UserID
         },
         body,
         {

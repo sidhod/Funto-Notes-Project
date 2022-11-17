@@ -64,7 +64,7 @@ export const getNote = async (req, res, next) => {
  */
 export const updateNote = async (req, res, next) => {
     try {
-        const data = await NotesService.updateNote(req.params._id, req.body);
+        const data = await NotesService.updateNote(req.params._id, req.body.UserID, req.body);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
