@@ -4642,3 +4642,31 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-11-17T07:49:57.495Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/notes.service.js:87:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375ef20fc3cdc37ac045b88/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T08:29:31.079Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/notes.service.js:87:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375ef20fc3cdc37ac045b88/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T08:29:33.020Z"}

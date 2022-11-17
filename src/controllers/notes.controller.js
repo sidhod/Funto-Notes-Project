@@ -94,14 +94,14 @@ export const deleteNote = async (req, res, next) => {
     }
 };
 /**
- * Controller to delete a note
+ * Controller to update isArchived Field a note
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
  */
 export const updateisArchivedField = async (req, res, next) => {
     try {
-        const data = await NotesService.updateisArchivedField(req.params._id);
+        const data = await NotesService.updateisArchivedField(req.params._id, req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
@@ -119,7 +119,7 @@ export const updateisArchivedField = async (req, res, next) => {
  */
 export const updateisDeletedField = async (req, res, next) => {
     try {
-        const data = await NotesService.updateisDeletedField(req.params._id);
+        const data = await NotesService.updateisDeletedField(req.params._id, req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,

@@ -37,8 +37,8 @@ export const updateNote = async (_id, body) => {
 
 
 //update isArchived Note
-export const updateisArchivedField = async (_id) => {
-    let note = await User.findById(_id);
+export const updateisArchivedField = async (id, UserID) => {
+    let note = await User.findById({ _id: id, UserId: UserID });
     let update;
     console.log(note);
     if (note.isArchived === true) {
@@ -53,7 +53,8 @@ export const updateisArchivedField = async (_id) => {
     }
     const data = await User.findByIdAndUpdate(
         {
-            _id,
+            _id: id,
+            UserID: UserID
         },
         update,
         {
@@ -64,8 +65,11 @@ export const updateisArchivedField = async (_id) => {
     return data;
 };
 //update isDelete Field
-export const updateisDeletedField = async (_id) => {
-    let note = await User.findById(_id);
+export const updateisDeletedField = async (id, UserID) => {
+    let note = await User.findById({
+        _id: id,
+        UserID: UserID
+    });
     let update;
     console.log(note);
     if (note.isDeleted === true) {
@@ -80,7 +84,8 @@ export const updateisDeletedField = async (_id) => {
     }
     const data = await User.findByIdAndUpdate(
         {
-            _id,
+            _id: id,
+            UserID: UserID
         },
         update,
         {
