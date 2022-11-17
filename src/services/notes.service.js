@@ -65,14 +65,24 @@ export const updateisArchivedField = async (_id) => {
 };
 //update isDelete Field
 export const updateisDeletedField = async (_id) => {
+    let note = await User.findById(_id);
+    let update;
+    console.log(note);
+    if (note.isDeleted === true) {
+        update = {
+            isDeleted: false
+        }
+    } else {
+        update = {
+            isDeleted: true
+        }
 
+    }
     const data = await User.findByIdAndUpdate(
         {
             _id,
         },
-        {
-            isDeleted: true
-        },
+        update,
         {
             new: true
         }

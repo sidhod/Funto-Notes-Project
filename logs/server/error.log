@@ -4354,3 +4354,147 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-11-17T05:53:43.101Z"}
+error: 
+    status - 500 
+    message - ReferenceError: note is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/notes.service.js:69:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisDeletedField (E:\express\fundo-notes-project\src\services\/notes.service.js:67:34)
+    at _callee7$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:122:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisDeletedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:120:34)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375cceff1e3c747c40534e9/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T06:18:26.230Z"}
+error: 
+    status - 500 
+    message - ReferenceError: note is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/notes.service.js:69:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisDeletedField (E:\express\fundo-notes-project\src\services\/notes.service.js:67:34)
+    at _callee7$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:122:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisDeletedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:120:34)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375cceff1e3c747c40534e9/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T06:18:39.826Z"}
+error: 
+    status - 500 
+    message - ReferenceError: note is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/notes.service.js:69:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisDeletedField (E:\express\fundo-notes-project\src\services\/notes.service.js:67:34)
+    at _callee7$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:122:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisDeletedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:120:34)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375cceff1e3c747c40534e9/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T06:18:41.529Z"}
+error: 
+    status - 500 
+    message - ReferenceError: note is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/notes.service.js:69:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisDeletedField (E:\express\fundo-notes-project\src\services\/notes.service.js:67:34)
+    at _callee7$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:122:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisDeletedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:120:34)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375cceff1e3c747c40534e9/trash 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T06:18:58.768Z"}

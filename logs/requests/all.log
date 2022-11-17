@@ -1272,3 +1272,29 @@ info: ::1 - - [17/Nov/2022:06:08:53 +0000] "PUT /api/v1/notes/6375cceff1e3c747c4
 
 info: ::1 - - [17/Nov/2022:06:08:55 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archived HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [17/Nov/2022:06:18:26 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:18:39 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:18:41 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:18:58 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:19:53 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:19:55 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:19:57 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:20:15 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/trash HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:20:28 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:20:30 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:20:34 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archived HTTP/1.1" 200 283 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:20:38 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archived HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:20:39 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archived HTTP/1.1" 200 283 "-" "PostmanRuntime/7.29.2"
+
