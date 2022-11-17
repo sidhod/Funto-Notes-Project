@@ -22,6 +22,8 @@ export const userAuth = async (req, res, next) => {
     console.log("token without bearer ========>", bearerToken);
 
     const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    console.log(user);
+    req.body.UserID = user.email;
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({

@@ -27,7 +27,7 @@ export const loginUser = async (body) => {
   if (data.length !== 0) {
     let passwordvalidator = await bcrypt.compare(body.password, data[0].password);
     if (passwordvalidator) {
-      let token = jwt.sign({ email: data[0].email, firstName: data[0].firstName, lastName: data[0].lastName }, process.env.SECRET_KEY);
+      let token = jwt.sign({ email: data[0].email, firstName: data[0].firstName, id: data[0]._id }, process.env.SECRET_KEY);
       return token;
     } else {
       throw new Error('Password Is incorrect.....');

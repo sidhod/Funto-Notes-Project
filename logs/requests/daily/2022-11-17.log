@@ -150,3 +150,43 @@ info: ::1 - - [17/Nov/2022:06:20:38 +0000] "PUT /api/v1/notes/6375cceff1e3c747c4
 
 info: ::1 - - [17/Nov/2022:06:20:39 +0000] "PUT /api/v1/notes/6375cceff1e3c747c40534e9/archived HTTP/1.1" 200 283 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [17/Nov/2022:06:26:37 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:31:13 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:32:01 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:32:14 +0000] "POST /api/v1/notes HTTP/1.1" 201 312 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:39:28 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:39:57 +0000] "GET /api/v1/notes HTTP/1.1" 500 111 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:40:38 +0000] "GET /api/v1/notes HTTP/1.1" 500 114 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:41:20 +0000] "GET /api/v1/notes HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:41:52 +0000] "POST /api/v1/notes HTTP/1.1" 201 312 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:42:04 +0000] "GET /api/v1/notes HTTP/1.1" 200 574 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:43:29 +0000] "GET /api/v1/users HTTP/1.1" 200 1497 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:44:26 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:44:38 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:44:54 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:45:30 +0000] "GET /api/v1/notes HTTP/1.1" 200 574 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:46:01 +0000] "POST /api/v1/notes HTTP/1.1" 201 312 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:46:28 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:47:06 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:48:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:06:48:08 +0000] "GET /api/v1/notes HTTP/1.1" 200 311 "-" "PostmanRuntime/7.29.2"
+

@@ -6,8 +6,8 @@ export const addNote = async (body) => {
     return data;
 };
 //get all notes
-export const allNotes = async () => {
-    const data = await User.find();
+export const allNotes = async (UserID) => {
+    const data = await User.find({ UserID });
     return data;
 };
 //get single note
