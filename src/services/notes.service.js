@@ -38,13 +38,24 @@ export const deleteNote = async (id) => {
 
 //update isArchived Note
 export const updateisArchivedField = async (_id) => {
+    let note = await User.findById(_id);
+    let update;
+    console.log(note);
+    if (note.isArchived === true) {
+        update = {
+            isArchived: false
+        }
+    } else {
+        update = {
+            isArchived: true
+        }
+
+    }
     const data = await User.findByIdAndUpdate(
         {
             _id,
         },
-        {
-            isArchived: true
-        },
+        update,
         {
             new: true
         }
@@ -54,6 +65,7 @@ export const updateisArchivedField = async (_id) => {
 };
 //update isDelete Field
 export const updateisDeletedField = async (_id) => {
+
     const data = await User.findByIdAndUpdate(
         {
             _id,

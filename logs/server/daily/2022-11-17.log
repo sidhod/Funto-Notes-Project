@@ -10,3 +10,565 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T0
 info: Connected to the database. {"timestamp":"2022-11-17T02:45:16.567Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T02:48:25.852Z"}
 info: Connected to the database. {"timestamp":"2022-11-17T02:48:25.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T02:58:37.941Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T02:58:38.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T02:59:09.652Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T02:59:09.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T02:59:55.275Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T02:59:55.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:01:13.794Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:01:13.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:01:55.736Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:01:55.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:21:39.074Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:21:39.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:22:10.981Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:22:11.011Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:23:18.531Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:23:25.225Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:23:48.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:23:56.116Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:23:56.152Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:23:56.411Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:23:57.931Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:23:59.956Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:24:18.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:25:10.376Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:25:10.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:26:42.856Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:26:42.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:26:49.778Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:26:49.800Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got 6374748c651f1f30a8d5313a
+    at model.Query.Query.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\express\fundo-notes-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:41:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateisArchivedField (E:\express\fundo-notes-project\src\services\/notes.service.js:40:35)
+    at _callee6$ (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:104:41)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateisArchivedField (E:\express\fundo-notes-project\src\controllers\/notes.controller.js:102:35)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\express\fundo-notes-project\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:26:50.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:27:09.428Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:27:09.452Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:42:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:27:10.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:27:41.109Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:27:41.134Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:27:42.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:28:30.893Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:28:30.920Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:28:32.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:29:05.881Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:29:05.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T03:29:13.307Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T03:29:13.364Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:44:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T03:29:13.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T04:12:27.699Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T04:12:27.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:46:09.289Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:46:09.400Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:44:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:46:14.954Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:44:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:46:20.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:47:27.477Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:47:27.541Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:44:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:47:28.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:47:59.496Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:47:59.557Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:25)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:47:59.907Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:25)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:48:01.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:48:41.074Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:48:41.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:50:30.375Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:50:30.436Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:42:25)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:50:35.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:52:01.095Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:52:01.147Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:52:04.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:52:32.999Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:52:33.096Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:52:34.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:53:12.187Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:53:12.244Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'isArchived')
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:43:17)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:53:12.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:53:41.471Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:53:41.565Z"}
+error: 
+    status - 500 
+    message - ReferenceError: update is not defined
+    at _callee6$ (E:\express\fundo-notes-project\src\services\/notes.service.js:48:15)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6374748c651f1f30a8d5313a/archived 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-17T05:53:43.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:54:10.420Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:54:10.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:55:13.433Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:55:13.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:58:23.551Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:58:23.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T05:58:31.047Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T05:58:31.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T06:08:48.551Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T06:08:48.606Z"}
