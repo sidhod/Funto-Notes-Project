@@ -46,7 +46,7 @@ export const allNotes = async (req, res, next) => {
  */
 export const getNote = async (req, res, next) => {
     try {
-        const data = await NotesService.getNote(req.params._id);
+        const data = await NotesService.getNote(req.params._id, req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,

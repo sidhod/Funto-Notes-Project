@@ -854,3 +854,55 @@ error:
    {"timestamp":"2022-11-17T07:11:00.177Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:11:23.137Z"}
 info: Connected to the database. {"timestamp":"2022-11-17T07:11:23.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:43:11.976Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:43:12.014Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '6375d92008973f5018887e87', userID: 'sai18@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d92008973f5018887e87 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:43:55.942Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '6375d92008973f5018887e87', userID: 'sai18@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d92008973f5018887e87 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:44:02.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:44:32.112Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:44:32.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:46:19.148Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:46:19.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:47:04.625Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:47:04.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:47:28.186Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:47:28.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:48:51.172Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:48:51.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:49:27.263Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:49:27.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:49:54.856Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:49:54.887Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserID: 'sidhodhanK18@gmail.com', id: '6375d56e1612200f64fdc702' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d56e1612200f64fdc702 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:49:57.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:50:26.880Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:50:26.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:51:05.547Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:51:05.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T07:53:23.523Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T07:53:23.546Z"}

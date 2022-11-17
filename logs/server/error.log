@@ -4612,3 +4612,33 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2022-11-17T07:11:00.177Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '6375d92008973f5018887e87', userID: 'sai18@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d92008973f5018887e87 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:43:55.942Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '6375d92008973f5018887e87', userID: 'sai18@gmail.com' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d92008973f5018887e87 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:44:02.557Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserID: 'sidhodhanK18@gmail.com', id: '6375d56e1612200f64fdc702' }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/6375d56e1612200f64fdc702 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-17T07:49:57.495Z"}
