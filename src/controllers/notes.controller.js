@@ -83,7 +83,7 @@ export const updateNote = async (req, res, next) => {
  */
 export const deleteNote = async (req, res, next) => {
     try {
-        await NotesService.deleteNote(req.params._id);
+        await NotesService.deleteNote(req.params._id, req.body.UserID);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: [],

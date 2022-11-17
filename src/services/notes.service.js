@@ -15,12 +15,16 @@ export const getNote = async (id, UserID) => {
     const data = await User.findById({ _id: id, UserID: UserID });
     return data;
 };
-
+//delete single user
+export const deleteNote = async (id, UserID) => {
+    await User.findByIdAndDelete({ _id: id, UserID: UserID });
+    return '';
+};
 //update single Note
 export const updateNote = async (_id, body) => {
     const data = await User.findByIdAndUpdate(
         {
-            _id
+            _id,
         },
         body,
         {
@@ -30,11 +34,7 @@ export const updateNote = async (_id, body) => {
     return data;
 };
 
-//delete single user
-export const deleteNote = async (id) => {
-    await User.findByIdAndDelete(id);
-    return '';
-};
+
 
 //update isArchived Note
 export const updateisArchivedField = async (_id) => {
