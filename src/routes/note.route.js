@@ -22,4 +22,7 @@ router.delete('/:_id', userAuth, notesController.deleteNote);
 
 //route to update a isArchived Field by their note id
 router.put('/:_id/archived', userAuth, notesController.updateisArchivedField);
+
+//route to update a isDelete Field by their note id
+router.put('/:_id/trash', userAuth, notesController.updateisDeletedField);
 export default router;

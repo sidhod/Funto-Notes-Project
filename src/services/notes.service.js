@@ -52,3 +52,19 @@ export const updateisArchivedField = async (_id) => {
     );
     return data;
 };
+//update isDelete Field
+export const updateisDeletedField = async (_id) => {
+    const data = await User.findByIdAndUpdate(
+        {
+            _id,
+        },
+        {
+            isDeleted: true
+        },
+        {
+            new: true
+        }
+
+    );
+    return data;
+};

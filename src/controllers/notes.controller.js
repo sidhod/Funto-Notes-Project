@@ -111,3 +111,21 @@ export const updateisArchivedField = async (req, res, next) => {
         next(error);
     }
 };
+/**
+ * Controller to delete a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const updateisDeletedField = async (req, res, next) => {
+    try {
+        const data = await NotesService.updateisDeletedField(req.params._id);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'isArchived update successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
