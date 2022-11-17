@@ -1338,3 +1338,9 @@ info: ::1 - - [17/Nov/2022:06:48:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 304
 
 info: ::1 - - [17/Nov/2022:06:48:08 +0000] "GET /api/v1/notes HTTP/1.1" 200 311 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [17/Nov/2022:07:11:00 +0000] "GET /api/v1/notes HTTP/1.1" 500 104 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:07:11:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 311 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [17/Nov/2022:07:11:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 829 "-" "PostmanRuntime/7.29.2"
+
