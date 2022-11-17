@@ -35,3 +35,20 @@ export const deleteNote = async (id) => {
     await User.findByIdAndDelete(id);
     return '';
 };
+
+//update isArchived Note
+export const updateisArchivedField = async (_id) => {
+    const data = await User.findByIdAndUpdate(
+        {
+            _id,
+        },
+        {
+            isArchived: true
+        },
+        {
+            new: true
+        }
+
+    );
+    return data;
+};

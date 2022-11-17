@@ -15,8 +15,11 @@ router.get('', userAuth, notesController.allNotes);
 router.get('/:_id', userAuth, notesController.getNote);
 
 //route to update a single note by their note id
-router.put('/:_id', notesController.updateNote);
+router.put('/:_id', userAuth, notesController.updateNote);
 
 //route to delete a single note by their note id
-router.delete('/:_id', notesController.deleteNote);
+router.delete('/:_id', userAuth, notesController.deleteNote);
+
+//route to update a isArchived Field by their note id
+router.put('/:_id/archived', userAuth, notesController.updateisArchivedField);
 export default router;
