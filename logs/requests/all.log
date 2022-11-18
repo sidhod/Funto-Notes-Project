@@ -1454,3 +1454,7 @@ info: ::1 - - [17/Nov/2022:08:35:42 +0000] "PUT /api/v1/notes/6375d92008973f5018
 
 info: ::1 - - [17/Nov/2022:08:35:49 +0000] "PUT /api/v1/notes/6375d92008973f5018887e87 HTTP/1.1" 202 304 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [17/Nov/2022:11:43:23 +0000] "GET /api/v1/notes/6375d92008973f5018887e87 HTTP/1.1" 200 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [18/Nov/2022:03:06:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 829 "-" "PostmanRuntime/7.29.2"
+

@@ -5561,3 +5561,7 @@ error:
    {"timestamp":"2022-11-17T08:34:52.763Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T08:35:22.247Z"}
 info: Connected to the database. {"timestamp":"2022-11-17T08:35:22.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-17T11:40:42.542Z"}
+info: Connected to the database. {"timestamp":"2022-11-17T11:40:42.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-18T02:54:55.512Z"}
+info: Connected to the database. {"timestamp":"2022-11-18T02:54:55.553Z"}
