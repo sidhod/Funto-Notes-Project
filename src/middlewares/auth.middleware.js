@@ -12,6 +12,7 @@ import jwt from 'jsonwebtoken';
 export const userAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
+    console.log("req========================>", req)
     console.log("token with bearer =========>", bearerToken);
     if (!bearerToken)
       throw {
