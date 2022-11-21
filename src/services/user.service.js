@@ -65,3 +65,17 @@ export const getUser = async (id) => {
   const data = await User.findById(id);
   return data;
 };
+
+//login user
+export const forgotPassword = async (body) => {
+  let email = body.email;
+  let data = await User.find({ email: email });
+  console.log(data);
+  if (data.length !== 0) {
+    let newtoken = jwt.sign({ email: data[0].email, firstName: data[0].firstName, id: data[0]._id }, process.env.SECRET_KEY);
+    return newtoken;
+  } else {
+    throw new Error('Email is not found.....');
+  }
+
+};

@@ -14,6 +14,9 @@ router.post('/register', newUserValidator, userAuth, userController.newUserRegis
 //route to Login an user
 router.post('/logins', userAuth, userController.loginUser);
 
+//route to Forgot password
+router.post('/forgotpwd', userAuth, userController.forgotPassword);
+
 
 
 
