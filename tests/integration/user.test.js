@@ -8,7 +8,7 @@ describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
+        mongoose.connection.collections[collection].deleteOne(() => { });
       }
     };
 
@@ -26,14 +26,76 @@ describe('User APIs Test', () => {
     done();
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
+  //test 1:registration new user short firstName
+  describe('UserRegistration', () => {
+    const inputBody = {
+      "firstName": "v",
+      "lastName": "mehtra",
+      "email": "Sidhlsm78125ehtr@gmail.com",
+      "password": "57sbfj"
+    }
+    it('user details should be saved in database', (done) => {
       request(app)
-        .get('/api/v1/users')
+        .post('/api/v1/users/register')
+        .send(inputBody)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+  //test 1:registration new user short lastName
+  describe('UserRegistration', () => {
+    const inputBody = {
+      "firstName": "Sidh",
+      "lastName": "K",
+      "email": "Sidh@gmail.com",
+      "password": "Pass"
+    }
+    it('user details should be saved in database', (done) => {
+      request(app)
+        .post('/api/v1/users/register')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
 
+  //test 1:registration new user large password
+  describe('UserRegistration', () => {
+    const inputBody = {
+      "firstName": "Sidh",
+      "lastName": "Kamble",
+      "email": "Sidh@gmail.com",
+      "password": "Passkkkkkkkkkkkkkkkk"
+    }
+    it('user details should be saved in database', (done) => {
+      request(app)
+        .post('/api/v1/users/register')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+
+  //test 1:registration new user short firstName
+  describe('UserRegistration', () => {
+    const inputBody = {
+      "firstName": "Sidh",
+      "lastName": "Kamble",
+      "email": "Sidh@gmail.com",
+      "password": "Pass"
+    }
+    it('user details should be saved in database', (done) => {
+      request(app)
+        .post('/api/v1/users/register')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(201);
           done();
         });
     });

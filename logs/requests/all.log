@@ -1582,3 +1582,269 @@ info: ::1 - - [23/Nov/2022:07:25:01 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1"
 
 info: ::1 - - [23/Nov/2022:07:31:31 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 326 "-" "PostmanRuntime/7.29.2"
 
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:07:41:24 +0000] "POST /api/v1/users/register HTTP/1.1" 400 40 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:43:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 13:11:24 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72600},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19190740,"external":27053868,"heapTotal":130822144,"heapUsed":99839896,"rss":164855808},"pid":11384,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:07:43:59 +0000] "POST /api/v1/users/register HTTP/1.1" 400 40 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:43:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 13:13:59 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72754},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18441565,"external":49031067,"heapTotal":120492032,"heapUsed":87174872,"rss":152666112},"pid":6056,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [23/Nov/2022:07:46:45 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:47:17 +0000] "GET /api/v1/users HTTP/1.1" 200 881 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:47:50 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:49:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:07:50:10 +0000] "POST /api/v1/users/register HTTP/1.1" 400 40 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 500
+AssertionError: expected 400 to equal 500
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:43:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 13:20:10 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":500,"message":"expected 400 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19448029,"external":44331428,"heapTotal":118620160,"heapUsed":92580696,"rss":151937024},"pid":8420,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:07:50:31 +0000] "POST /api/v1/users/register HTTP/1.1" 400 40 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 500
+AssertionError: expected 400 to equal 500
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:43:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 13:20:31 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":500,"message":"expected 400 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73146},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19644144,"external":49025532,"heapTotal":118358016,"heapUsed":94842864,"rss":151056384},"pid":4860,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 400 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:07:51:15 +0000] "POST /api/v1/users/register HTTP/1.1" 400 40 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:07:52:32 +0000] "POST /api/v1/users/register HTTP/1.1" 400 40 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:43:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 13:22:32 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73267},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19657931,"external":49032558,"heapTotal":118358016,"heapUsed":95525944,"rss":151252992},"pid":10804,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [23/Nov/2022:07:54:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:00:03 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:00:28 +0000] "GET /api/v1/users HTTP/1.1" 200 881 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:01:14 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:01:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:01:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:01:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:01:52 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:02:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:03:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:04:10 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:04:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:04:30 +0000] "GET /api/v1/users HTTP/1.1" 200 881 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:06:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:08:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:08:07 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:08:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:08:37 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:08:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:09:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:09:12 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:10:16 +0000] "GET /api/v1/users/register HTTP/1.1" 500 130 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:10:27 +0000] "POST /api/v1/users/register HTTP/1.1" 201 323 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:26:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:31:44 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:31:47 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:31:58 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:32:01 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:32:08 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:32:39 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:32:42 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:33:31 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:33:54 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:33:57 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:34:17 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:08:36:08 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:08:49:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:43:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 14:19:47 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":76702},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19699270,"external":53632634,"heapTotal":119418880,"heapUsed":97473256,"rss":152784896},"pid":13716,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:08:52:02 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:08:53:28 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 14:23:28 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":76924},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19613363,"external":53618356,"heapTotal":119668736,"heapUsed":94556672,"rss":153112576},"pid":18280,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:00:14 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 14:30:14 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77329},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19854998,"external":46301914,"heapTotal":119668736,"heapUsed":95155784,"rss":152793088},"pid":7056,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:00:29 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:03:31 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [23/Nov/2022:09:03:59 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:09:04:29 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:09:04:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:09:04:49 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:09:05:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:11:59 +0000] "POST /api/v1/users/register HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 201 to equal 500
+AssertionError: expected 201 to equal 500
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 14:41:59 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":500,"message":"expected 201 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78034},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18516463,"external":27421101,"heapTotal":118136832,"heapUsed":88355048,"rss":152563712},"pid":8764,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:13:03 +0000] "POST /api/v1/users/register HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:25:06 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:09:25:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:09:46 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 17:39:46 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":88701},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339207,"external":19589847,"heapTotal":86413312,"heapUsed":80125296,"rss":119934976},"pid":20240,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:12:30 +0000] "POST /api/v1/users/register HTTP/1.1" 201 331 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:13:34 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 201 to equal 500
+AssertionError: expected 201 to equal 500
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 17:43:35 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":500,"message":"expected 201 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":88930},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18666499,"external":49048234,"heapTotal":122064896,"heapUsed":89553168,"rss":156356608},"pid":13976,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:14:49 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 201 to equal 500
+AssertionError: expected 201 to equal 500
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:42:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 23 2022 17:44:49 GMT+0530 (India Standard Time)","error":{"actual":201,"expected":500,"message":"expected 201 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":89004},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19845821,"external":46342633,"heapTotal":120717312,"heapUsed":96774000,"rss":156168192},"pid":2876,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 201 to equal 500\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:42:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:15:21 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:15:29 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:17:02 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:17:02 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:18:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:18:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:18:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:18:58 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:18:58 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:18:58 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:19:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:19:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:19:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Nov/2022:12:19:43 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
