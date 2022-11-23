@@ -4769,3 +4769,708 @@ error: Could not connect to the database. URI malformed, cannot be parsed {"name
 error: Could not connect to the database. URI malformed, cannot be parsed {"name":"MongoParseError","stack":"MongoParseError: URI malformed, cannot be parsed\n    at parseConnectionString (E:\\express\\fundo-notes-project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:580:21)\n    at QueryReqWrap.callback (E:\\express\\fundo-notes-project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:127:7)\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:49:10)","timestamp":"2022-11-21T07:03:34.828Z"}
 error: Could not connect to the database. URI malformed, cannot be parsed {"name":"MongoParseError","stack":"MongoParseError: URI malformed, cannot be parsed\n    at parseConnectionString (E:\\express\\fundo-notes-project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:580:21)\n    at QueryReqWrap.callback (E:\\express\\fundo-notes-project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:127:7)\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:49:10)","timestamp":"2022-11-21T07:20:57.008Z"}
 error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2022-11-21T10:06:23.321Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:37:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T03:43:48.083Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:37:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T03:43:55.772Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\fundo-notes-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-23T03:46:51.277Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\fundo-notes-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-23T03:50:43.635Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\fundo-notes-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\fundo-notes-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\fundo-notes-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-23T03:51:33.948Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 45
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundo-notes-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:26:59.249Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:78:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:27:06.920Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:78:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:27:17.703Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:28:56.344Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:29:44.195Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:31:21.748Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:32:04.483Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:32:06.494Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 44
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundo-notes-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:33:00.159Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 42
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundo-notes-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:33:41.639Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:33:46.907Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:35:02.627Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:35:15.500Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 45
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\fundo-notes-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:38:28.612Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:38:33.594Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:38:35.973Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:40:16.848Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:40:50.624Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:40:52.585Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:43:30.919Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:43:33.473Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:79:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:43:35.237Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:76:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:46:16.563Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:73:42)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.forgotPassword (E:\express\fundo-notes-project\src\services\/user.service.js:70:28)
+    at _callee7$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:129:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at forgotPassword (E:\express\fundo-notes-project\src\controllers\/user.controller.js:127:28)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:48:41.766Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:73:42)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.forgotPassword (E:\express\fundo-notes-project\src\services\/user.service.js:70:28)
+    at _callee7$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:129:36)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at forgotPassword (E:\express\fundo-notes-project\src\controllers\/user.controller.js:127:28)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:48:45.628Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:49:39.597Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:50:21.667Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:50:50.536Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:50:52.363Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:50:53.925Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:52:51.018Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:74:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:53:29.079Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:74:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:53:32.044Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:78:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:54:41.544Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:78:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:54:44.919Z"}
+error: 
+    status - 500 
+    message - Error: Email is not found.....
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:78:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:56:54.148Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:74:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:57:39.522Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:74:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:58:49.169Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'length')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:74:12)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T06:58:52.518Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee7$ (E:\express\fundo-notes-project\src\services\/user.service.js:75:46)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-23T07:00:43.208Z"}

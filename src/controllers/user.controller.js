@@ -126,7 +126,7 @@ export const loginUser = async (req, res, next) => {
  */
 export const forgotPassword = async (req, res, next) => {
   try {
-    const data = await UserService.forgotPassword(req.body.email);
+    const data = await UserService.forgotPassword(req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,

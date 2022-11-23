@@ -1,7 +1,9 @@
 import { empty } from '@hapi/joi/lib/base';
 import User from '../models/user.model';
+import { sendMail } from '../utils/user.util';
 const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
+
 
 //get all users
 export const getAllUsers = async () => {
@@ -68,12 +70,13 @@ export const getUser = async (id) => {
 
 //login user
 export const forgotPassword = async (body) => {
-  let email = body.email;
-  let data = await User.find({ email: email });
+  console.log(body.email);
+  let data = await User.find({ email: body.email });
   console.log(data);
   if (data.length !== 0) {
     let newtoken = jwt.sign({ email: data[0].email, firstName: data[0].firstName, id: data[0]._id }, process.env.SECRET_KEY);
-    return newtoken;
+    let sending = await sendMail(data[0].email, newtoken);
+    return [newtoken, sending];
   } else {
     throw new Error('Email is not found.....');
   }
