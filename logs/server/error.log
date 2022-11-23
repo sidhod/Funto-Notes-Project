@@ -5474,3 +5474,16 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-23T07:00:43.208Z"}
+error: 
+    status - 500 
+    message - TypeError: _user.default.findAndUpdate is not a function
+    at _callee8$ (E:\express\fundo-notes-project\src\services\/user.service.js:91:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/resetpwd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-23T07:25:01.508Z"}

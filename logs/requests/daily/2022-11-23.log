@@ -104,3 +104,13 @@ info: ::1 - - [23/Nov/2022:07:07:35 +0000] "POST /api/v1/users/forgotpwd HTTP/1.
 
 info: ::1 - - [23/Nov/2022:07:08:55 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 641 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [23/Nov/2022:07:22:38 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 642 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:23:56 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:24:07 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:25:01 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 500 80 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [23/Nov/2022:07:31:31 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 326 "-" "PostmanRuntime/7.29.2"
+

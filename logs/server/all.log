@@ -6436,3 +6436,37 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T0
 info: Connected to the database. {"timestamp":"2022-11-23T07:08:26.240Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:08:45.285Z"}
 info: Connected to the database. {"timestamp":"2022-11-23T07:08:51.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:22:14.659Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:22:24.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:24:33.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:24:43.361Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:24:53.032Z"}
+error: 
+    status - 500 
+    message - TypeError: _user.default.findAndUpdate is not a function
+    at _callee8$ (E:\express\fundo-notes-project\src\services\/user.service.js:91:27)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/resetpwd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-11-23T07:25:01.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:25:36.345Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:25:45.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:26:41.642Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:26:50.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:27:37.198Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:27:45.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:28:17.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:28:26.614Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:28:35.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:29:00.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:29:11.630Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:29:20.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:31:20.739Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:31:31.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T07:32:17.886Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T07:32:26.394Z"}

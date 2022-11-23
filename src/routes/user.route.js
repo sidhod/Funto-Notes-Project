@@ -16,6 +16,8 @@ router.post('/logins', userAuth, userController.loginUser);
 
 //route to Forgot password
 router.post('/forgotpwd', userController.forgotPassword);
+//route to Reset password
+router.put('/resetpwd', userAuth, userController.resetPassword);
 
 
 
