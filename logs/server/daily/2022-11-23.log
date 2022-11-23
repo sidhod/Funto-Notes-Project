@@ -2913,3 +2913,1508 @@ error:
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-11-23T12:19:33.801Z"}
 info: Connected to the database. {"timestamp":"2022-11-23T12:19:42.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T12:24:40.778Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:24:40.834Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:24:40.866Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:24:40.891Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T12:24:49.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T12:32:37.779Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:32:37.830Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:32:37.863Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:32:37.888Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T12:32:46.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T12:38:04.606Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:38:04.671Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:38:04.708Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:38:04.744Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T12:38:13.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T12:40:48.064Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T12:40:56.906Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:40:57.763Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:40:57.794Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:40:57.820Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:40:57.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T12:46:01.829Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T12:46:11.072Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:11.926Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:11.950Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:11.972Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:11.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T12:46:28.889Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T12:46:37.021Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:37.937Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:37.964Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:37.992Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T12:46:38.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T13:03:50.480Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T13:03:59.185Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:04:00.109Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:04:00.149Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:04:00.191Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:04:00.225Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:39:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:04:01.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T13:04:50.928Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T13:04:59.487Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:05:00.327Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:05:00.354Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:05:00.378Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:05:00.404Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:39:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:05:01.391Z"}
+error: 
+    status - 500 
+    message - Error: Password Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:35:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:05:01.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-23T13:07:35.340Z"}
+info: Connected to the database. {"timestamp":"2022-11-23T13:07:44.279Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:07:45.185Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:07:45.213Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:07:45.241Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:07:45.268Z"}
+error: 
+    status - 500 
+    message - Error: Email Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:39:11)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:07:46.390Z"}
+error: 
+    status - 500 
+    message - Error: Password Is incorrect.....
+    at _callee3$ (E:\express\fundo-notes-project\src\services\/user.service.js:35:13)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/logins 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-23T13:07:46.915Z"}

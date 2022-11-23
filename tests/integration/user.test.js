@@ -25,8 +25,26 @@ describe('User APIs Test', () => {
 
     done();
   });
+  //test 1:registration successfully
+  describe('UserRegistration', () => {
+    const inputBody = {
+      "firstName": "Sidh",
+      "lastName": "Kamble",
+      "email": "Sidh@gmail.com",
+      "password": "Pass"
+    }
+    it('user details should be saved in database', (done) => {
+      request(app)
+        .post('/api/v1/users/register')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(201);
+          done();
+        });
+    });
+  });
 
-  //test 1:registration new user short firstName
+  //test 2:registration new user short firstName
   describe('UserRegistration', () => {
     const inputBody = {
       "firstName": "v",
@@ -44,7 +62,7 @@ describe('User APIs Test', () => {
         });
     });
   });
-  //test 1:registration new user short lastName
+  //test 3:registration new user short lastName
   describe('UserRegistration', () => {
     const inputBody = {
       "firstName": "Sidh",
@@ -63,7 +81,7 @@ describe('User APIs Test', () => {
     });
   });
 
-  //test 1:registration new user large password
+  //test 4:registration new user large password
   describe('UserRegistration', () => {
     const inputBody = {
       "firstName": "Sidh",
@@ -81,13 +99,12 @@ describe('User APIs Test', () => {
         });
     });
   });
-
-  //test 1:registration new user short firstName
+  //test 5:registration wrong email
   describe('UserRegistration', () => {
     const inputBody = {
       "firstName": "Sidh",
       "lastName": "Kamble",
-      "email": "Sidh@gmail.com",
+      "email": "Sidh@gmail",
       "password": "Pass"
     }
     it('user details should be saved in database', (done) => {
@@ -95,9 +112,62 @@ describe('User APIs Test', () => {
         .post('/api/v1/users/register')
         .send(inputBody)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(201);
+          expect(res.statusCode).to.be.equal(500);
           done();
         });
     });
   });
+  var token;
+  //test 6:login
+  describe('Login User', () => {
+    const inputBody = {
+      "email": "Sidh@gmail.com",
+      "password": "Pass"
+    }
+    it('Given User Should Login', (done) => {
+      request(app)
+        .post('/api/v1/users/logins')
+        .send(inputBody)
+        .end((err, res) => {
+          token = res.body.data;
+          expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+  });
+  //test 7:login wrong email
+  describe('Login User', () => {
+    const inputBody = {
+      "email": "Sidh@gmail",
+      "password": "Pass"
+    }
+    it('Given invalid email should throw error', (done) => {
+      request(app)
+        .post('/api/v1/users/logins')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+  //test 7:login wrong password
+  describe('Login User', () => {
+    const inputBody = {
+      "email": "Sidh@gmail.com",
+      "password": "Passadhhqfhalk"
+    }
+    it('Given invalid password should throw error', (done) => {
+      request(app)
+        .post('/api/v1/users/logins')
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+
+
+
 });
