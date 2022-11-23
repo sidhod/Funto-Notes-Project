@@ -151,7 +151,7 @@ describe('User APIs Test', () => {
         });
     });
   });
-  //test 7:login wrong password
+  //test 8:login wrong password
   describe('Login User', () => {
     const inputBody = {
       "email": "Sidh@gmail.com",
@@ -167,7 +167,55 @@ describe('User APIs Test', () => {
         });
     });
   });
-
-
-
+  //test 9:Create Note
+  describe('Create Note', () => {
+    const inputBody = {
+      "Title": "Note-1",
+      "Descreption": "note is create"
+    }
+    it('Given Note Should Be Save In Database', (done) => {
+      request(app)
+        .post('/api/v1/notes')
+        .set('authorization', `Bearer ${token}`)
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(201);
+          done();
+        });
+    });
+  });
+  //test 10:Create Note
+  describe('Create Note', () => {
+    const inputBody = {
+      "Title": "N",
+      "Descreption": "note is create"
+    }
+    it('Given invalid title should throw error', (done) => {
+      request(app)
+        .post('/api/v1/notes')
+        .set('authorization', `Bearer ${token}`)
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+  //test 11:Create Note
+  describe('Create Note', () => {
+    const inputBody = {
+      "Title": "Note",
+      "Descreption": "n"
+    }
+    it('Given invalid descreption should throw error', (done) => {
+      request(app)
+        .post('/api/v1/notes')
+        .set('authorization', `Bearer ${token}`)
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
 });
