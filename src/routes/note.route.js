@@ -15,7 +15,7 @@ router.get('', userAuth, notesController.allNotes);
 router.get('/:_id', userAuth, notesController.getNote);
 
 //route to update a single note by their note id
-router.put('/:_id', userAuth, notesController.updateNote);
+router.put('/:_id', newNotesValidator, userAuth, notesController.updateNote);
 
 //route to delete a single note by their note id
 router.delete('/:_id', userAuth, notesController.deleteNote);

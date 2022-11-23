@@ -167,6 +167,7 @@ describe('User APIs Test', () => {
         });
     });
   });
+  var id;
   //test 9:Create Note
   describe('Create Note', () => {
     const inputBody = {
@@ -179,6 +180,7 @@ describe('User APIs Test', () => {
         .set('authorization', `Bearer ${token}`)
         .send(inputBody)
         .end((err, res) => {
+          id = res.body.data._id;
           expect(res.statusCode).to.be.equal(201);
           done();
         });
@@ -214,6 +216,117 @@ describe('User APIs Test', () => {
         .send(inputBody)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+  //test 12:Get all Notes
+  describe('Get All Note', () => {
+    it('Given User Should Give All notes', (done) => {
+      request(app)
+        .get('/api/v1/notes')
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+  });
+  //test 13:Get all Notes
+  describe('Get All Note', () => {
+    it('Given invalid token should throw error', (done) => {
+      request(app)
+        .get('/api/v1/notes')
+        .set('authorization', `${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(400);
+          done();
+        });
+    });
+  });
+  //test 14:Get By Id
+  describe('Get By Id', () => {
+    it('Given Note By Id Should Get', (done) => {
+      request(app)
+        .get(`/api/v1/notes/${id}`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+  });
+  //test 15:Get By Id
+  describe('Get By Id', () => {
+    it('Given invalid id should throw error', (done) => {
+      request(app)
+        .get(`/api/v1/notes/esresgvghftdb`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+  //test 16:Update By Id
+  describe('Update By Id', () => {
+    const inputBody = {
+      "Title": "Note-1",
+      "Descreption": "ngygytyne",
+
+    }
+    it('Given Note By Id Should Update Color', (done) => {
+      request(app)
+        .put(`/api/v1/notes/${id}`)
+        .set('authorization', `Bearer ${token}`)
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(202);
+          done();
+        });
+    });
+  });
+  //test 17:Update By Id
+  describe('Update By Id', () => {
+    const inputBody = {
+      "Title": "g"
+    }
+    it('Given invalid Descri should throw error', (done) => {
+      request(app)
+        .put(`/api/v1/notes/${id}`)
+        .set('authorization', `Bearer ${token}`)
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+
+  //test 18:Update By Id
+  describe('Update By Id', () => {
+    const inputBody = {
+      "Descreptio": "nhuhj",
+    }
+    it('Given invalid Descreption should throw error', (done) => {
+      request(app)
+        .put(`/api/v1/notes/${id}`)
+        .set('authorization', `Bearer ${token}`)
+        .send(inputBody)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
+          done();
+        });
+    });
+  });
+  //test :Delete By Id
+  describe('Delete By Id', () => {
+    it('Given Note Should be Delete By Id', (done) => {
+      request(app)
+        .delete(`/api/v1/notes/${id}`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
           done();
         });
     });

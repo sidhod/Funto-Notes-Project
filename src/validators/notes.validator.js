@@ -17,7 +17,6 @@ export const newNotesValidator = (req, res, next) => {
             message: `${error}`
         });
     } else {
-        console.log(value);
         next();
     }
 };
