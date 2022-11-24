@@ -3162,3 +3162,619 @@ info: ::ffff:127.0.0.1 - - [23/Nov/2022:15:13:30 +0000] "PUT /api/v1/notes/637e3
 
 info: ::ffff:127.0.0.1 - - [23/Nov/2022:15:13:30 +0000] "DELETE /api/v1/notes/637e389887266c514440aeb9 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:33 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:34 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:34 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:35 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:35 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:35 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:36 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:36 +0000] "GET /api/v1/notes/637eda57cb449122ac38c8aa HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:37 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:37 +0000] "PUT /api/v1/notes/637eda57cb449122ac38c8aa HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:37 +0000] "PUT /api/v1/notes/637eda57cb449122ac38c8aa HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:37 +0000] "PUT /api/v1/notes/637eda57cb449122ac38c8aa HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:43:37 +0000] "DELETE /api/v1/notes/637eda57cb449122ac38c8aa HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:05 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:05 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:05 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:06 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:06 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:07 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:07 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:07 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:08 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:08 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:08 +0000] "GET /api/v1/notes/637eddbf69aa431d78921c7f HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:08 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:09 +0000] "PUT /api/v1/notes/637eddbf69aa431d78921c7f HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:09 +0000] "PUT /api/v1/notes/637eddbf69aa431d78921c7f HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:09 +0000] "PUT /api/v1/notes/637eddbf69aa431d78921c7f HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:09 +0000] "DELETE /api/v1/notes/637eddbf69aa431d78921c7f HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:09 +0000] "DELETE /api/v1/notes/vfsfufeh HTTP/1.1" 500 168 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:41 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:41 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:42 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:42 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:43 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:43 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:44 +0000] "GET /api/v1/notes/637edde21cd25042e48f65a5 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:44 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:44 +0000] "PUT /api/v1/notes/637edde21cd25042e48f65a5 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:44 +0000] "PUT /api/v1/notes/637edde21cd25042e48f65a5 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:44 +0000] "PUT /api/v1/notes/637edde21cd25042e48f65a5 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:45 +0000] "DELETE /api/v1/notes/637edde21cd25042e48f65a5 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:02:58:45 +0000] "DELETE /api/v1/notes/vfsfufeh HTTP/1.1" 500 168 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:09:03 +0000] "POST /api/v1/users/register HTTP/1.1" 500 98 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:41:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Nov 24 2022 11:39:03 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153458},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18338120,"external":19512569,"heapTotal":88772608,"heapUsed":82036248,"rss":123031552},"pid":21996,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:55 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:56 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:56 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:57 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:57 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:57 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:57 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:58 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:58 +0000] "GET /api/v1/notes/637f0b2dd0564123608f7d1b HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:58 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:59 +0000] "PUT /api/v1/notes/637f0b2dd0564123608f7d1b HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:59 +0000] "PUT /api/v1/notes/637f0b2dd0564123608f7d1b HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:59 +0000] "PUT /api/v1/notes/637f0b2dd0564123608f7d1b HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:11:59 +0000] "DELETE /api/v1/notes/637f0b2dd0564123608f7d1b/archived HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:329:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Nov 24 2022 11:41:59 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:329:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153634},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18377498,"external":19918140,"heapTotal":97861632,"heapUsed":87171032,"rss":128483328},"pid":9056,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:329:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":329,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:34 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:34 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:34 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:35 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:35 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:36 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:36 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:36 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:36 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:37 +0000] "GET /api/v1/notes/637f0c07bec3b024548dd0d0 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:37 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:37 +0000] "PUT /api/v1/notes/637f0c07bec3b024548dd0d0 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:37 +0000] "PUT /api/v1/notes/637f0c07bec3b024548dd0d0 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:37 +0000] "PUT /api/v1/notes/637f0c07bec3b024548dd0d0 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:15:37 +0000] "DELETE /api/v1/notes/637f0c07bec3b024548dd0d0/archived HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:329:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Nov 24 2022 11:45:38 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:329:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153853},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18609855,"external":19865328,"heapTotal":125648896,"heapUsed":95970992,"rss":160223232},"pid":9300,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:329:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":329,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:47 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:48 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:48 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:49 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:49 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:49 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:49 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:50 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:50 +0000] "GET /api/v1/notes/637f0c51e68e052068ce2a0a HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:50 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:51 +0000] "PUT /api/v1/notes/637f0c51e68e052068ce2a0a HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:51 +0000] "PUT /api/v1/notes/637f0c51e68e052068ce2a0a HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:51 +0000] "PUT /api/v1/notes/637f0c51e68e052068ce2a0a HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:06:16:51 +0000] "DELETE /api/v1/notes/637f0c51e68e052068ce2a0a/archived HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:329:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Nov 24 2022 11:46:51 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:329:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153926},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18377804,"external":19918140,"heapTotal":99696640,"heapUsed":88963416,"rss":130658304},"pid":8296,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:329:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":329,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:03:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 98 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:41:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Nov 24 2022 12:33:30 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":156726},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18337454,"external":19511903,"heapTotal":89296896,"heapUsed":83078216,"rss":123596800},"pid":20620,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:08 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:08 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:08 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:08 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:08 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:09 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:09 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:10 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:10 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:10 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:11 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:11 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:11 +0000] "GET /api/v1/notes/637f176a54dd6345e02861d7 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:11 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:12 +0000] "PUT /api/v1/notes/637f176a54dd6345e02861d7 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:12 +0000] "PUT /api/v1/notes/637f176a54dd6345e02861d7 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:12 +0000] "PUT /api/v1/notes/637f176a54dd6345e02861d7 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:04:13 +0000] "PUT /api/v1/notes/637f176a54dd6345e02861d7/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:43 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:44 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:44 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:45 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:45 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:46 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:46 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:46 +0000] "GET /api/v1/notes/637f187d40e7af17e457af85 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:46 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:47 +0000] "PUT /api/v1/notes/637f187d40e7af17e457af85 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:47 +0000] "PUT /api/v1/notes/637f187d40e7af17e457af85 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:47 +0000] "PUT /api/v1/notes/637f187d40e7af17e457af85 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:48 +0000] "PUT /api/v1/notes/637f187d40e7af17e457af85/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:48 +0000] "DELETE /api/v1/notes/637f187d40e7af17e457af85 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:08:48 +0000] "DELETE /api/v1/notes/vfsfufeh HTTP/1.1" 500 168 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:18 +0000] "POST /api/v1/users/register HTTP/1.1" 500 98 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (E:\express\fundo-notes-project\tests\integration\/user.test.js:41:40)
+    at Test.assert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\express\fundo-notes-project\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1857:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Nov 24 2022 12:42:18 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":157253},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\express\\fundo-notes-project\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18344141,"external":19538976,"heapTotal":124424192,"heapUsed":84170400,"rss":156307456},"pid":12728,"uid":null,"version":"v16.18.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1857:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"E:\\express\\fundo-notes-project\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1857,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:41 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:41 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:41 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:42 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:42 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:43 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:43 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:44 +0000] "GET /api/v1/notes/637f196b5c858152fc397824 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:44 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:45 +0000] "PUT /api/v1/notes/637f196b5c858152fc397824 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:45 +0000] "PUT /api/v1/notes/637f196b5c858152fc397824 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:45 +0000] "PUT /api/v1/notes/637f196b5c858152fc397824 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:46 +0000] "PUT /api/v1/notes/637f196b5c858152fc397824/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:46 +0000] "DELETE /api/v1/notes/637f196b5c858152fc397824 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:12:46 +0000] "DELETE /api/v1/notes/vfsfufeh HTTP/1.1" 500 168 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:23 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:24 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:24 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:24 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:24 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:24 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:25 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:25 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:26 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:26 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:26 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:26 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:26 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:27 +0000] "GET /api/v1/notes/637f1b75d5d3de054881d3a7 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:27 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:27 +0000] "PUT /api/v1/notes/637f1b75d5d3de054881d3a7 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:27 +0000] "PUT /api/v1/notes/637f1b75d5d3de054881d3a7 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:27 +0000] "PUT /api/v1/notes/637f1b75d5d3de054881d3a7 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:21:28 +0000] "PUT /api/v1/notes/637f1b75d5d3de054881d3a7/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:04 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:04 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:05 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:05 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:06 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:06 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:06 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:07 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:07 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:07 +0000] "GET /api/v1/notes/637f1c16d16b912864f08a92 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:07 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:08 +0000] "PUT /api/v1/notes/637f1c16d16b912864f08a92 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:08 +0000] "PUT /api/v1/notes/637f1c16d16b912864f08a92 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:08 +0000] "PUT /api/v1/notes/637f1c16d16b912864f08a92 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:09 +0000] "PUT /api/v1/notes/637f1c16d16b912864f08a92/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:09 +0000] "PUT /api/v1/notes/637f1c16d16b912864f08a92/archived HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:43 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:43 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:43 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:44 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:44 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:45 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:45 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:46 +0000] "GET /api/v1/notes/637f1c3c77f7b8572880ecac HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:46 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:47 +0000] "PUT /api/v1/notes/637f1c3c77f7b8572880ecac HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:47 +0000] "PUT /api/v1/notes/637f1c3c77f7b8572880ecac HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:47 +0000] "PUT /api/v1/notes/637f1c3c77f7b8572880ecac HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:47 +0000] "PUT /api/v1/notes/637f1c3c77f7b8572880ecac/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:24:48 +0000] "PUT /api/v1/notes/637f1c3c77f7b8572880ecac/archived HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:09 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:10 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:10 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:11 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:11 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:11 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:11 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:11 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:12 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:12 +0000] "GET /api/v1/notes/637f1ccffb3d540b145b2b45 HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:12 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:13 +0000] "PUT /api/v1/notes/637f1ccffb3d540b145b2b45 HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:13 +0000] "PUT /api/v1/notes/637f1ccffb3d540b145b2b45 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:13 +0000] "PUT /api/v1/notes/637f1ccffb3d540b145b2b45 HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:14 +0000] "PUT /api/v1/notes/637f1ccffb3d540b145b2b45/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:27:14 +0000] "PUT /api/v1/notes/637f1ccffb3d540b145b2b45/trash HTTP/1.1" 200 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:30 +0000] "POST /api/v1/users/register HTTP/1.1" 201 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:30 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:31 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:31 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 229 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:31 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:32 +0000] "POST /api/v1/users/logins HTTP/1.1" 500 61 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:32 +0000] "POST /api/v1/notes HTTP/1.1" 201 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:32 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:32 +0000] "POST /api/v1/notes HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 296 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:33 +0000] "GET /api/v1/notes HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:33 +0000] "GET /api/v1/notes/637f1d2063fd0d45dc4d9b2b HTTP/1.1" 200 289 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:34 +0000] "GET /api/v1/notes/esresgvghftdb HTTP/1.1" 500 173 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:34 +0000] "PUT /api/v1/notes/637f1d2063fd0d45dc4d9b2b HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:34 +0000] "PUT /api/v1/notes/637f1d2063fd0d45dc4d9b2b HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:34 +0000] "PUT /api/v1/notes/637f1d2063fd0d45dc4d9b2b HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:35 +0000] "PUT /api/v1/notes/637f1d2063fd0d45dc4d9b2b/archived HTTP/1.1" 200 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:36 +0000] "PUT /api/v1/notes/637f1d2063fd0d45dc4d9b2b/trash HTTP/1.1" 200 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:36 +0000] "DELETE /api/v1/notes/637f1d2063fd0d45dc4d9b2b HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Nov/2022:07:28:36 +0000] "DELETE /api/v1/notes/vfsfufeh HTTP/1.1" 500 168 "-" "node-superagent/3.8.3"
+

@@ -319,7 +319,31 @@ describe('User APIs Test', () => {
         });
     });
   });
-  //test :Delete By Id
+  //test 19 :Update Isarchived
+  describe('archived By Id', () => {
+    it('Given id should change is archived field', (done) => {
+      request(app)
+        .put(`/api/v1/notes/${id}/archived`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+  });
+  //test 20 :Update IsDelete
+  describe('Add In to trash by Id', () => {
+    it('Given id should change is isdelete field', (done) => {
+      request(app)
+        .put(`/api/v1/notes/${id}/trash`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+  });
+  //test 21 :Delete By Id
   describe('Delete By Id', () => {
     it('Given Note Should be Delete By Id', (done) => {
       request(app)
@@ -327,6 +351,19 @@ describe('User APIs Test', () => {
         .set('authorization', `Bearer ${token}`)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
+          done();
+        });
+    });
+  });
+
+  //test 22 :Delete By Id
+  describe('Delete By Id', () => {
+    it('Given invalid id should throw error', (done) => {
+      request(app)
+        .delete(`/api/v1/notes/vfsfufeh`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(500);
           done();
         });
     });
