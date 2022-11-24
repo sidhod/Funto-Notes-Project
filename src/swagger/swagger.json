@@ -51,6 +51,48 @@
                     }
                 }
             }
+        },
+        "/users/logins": {
+            "post": {
+                "tags": [
+                    "User (Operations For User)"
+                ],
+                "description": "Login User",
+                "parameters": [
+                    {
+                        "name": "Login User",
+                        "in": "body",
+                        "description": "User",
+                        "schema": {
+                            "$ref": "#/UserLogin/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Login Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                }
+            }
+        }
+    },
+    "UserLogin": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
         }
     },
     "UserRegistration": {
