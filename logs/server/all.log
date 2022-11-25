@@ -26951,3 +26951,39 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T1
 info: Connected to the database. {"timestamp":"2022-11-25T10:00:26.902Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:01:48.662Z"}
 info: Connected to the database. {"timestamp":"2022-11-25T10:01:57.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:13:40.979Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:13:50.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:14:51.668Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:15:00.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:19:11.605Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:19:21.360Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:20:46.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:20:58.032Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:21:06.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:21:29.609Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:21:37.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:24:05.322Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:24:14.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:31:43.037Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:31:53.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:34:10.892Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:34:20.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:35:34.427Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:35:43.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:41:18.498Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:41:27.966Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: '$638096170833c93ba4254860',
+  UserID: 'nayanakamble1979@gmail.com'
+}" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\express\fundo-notes-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/$638096170833c93ba4254860 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-11-25T10:43:08.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:43:44.802Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:43:53.587Z"}

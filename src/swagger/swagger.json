@@ -146,6 +146,94 @@
                     }
                 ]
             }
+        },
+        "/notes": {
+            "post": {
+                "tags": [
+                    "Notes(CRUD Operation)"
+                ],
+                "description": "Create New Note",
+                "parameters": [
+                    {
+                        "name": "Create New Note",
+                        "in": "body",
+                        "description": "Note",
+                        "schema": {
+                            "$ref": "#/definitions/CreateNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Note Created"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "get": {
+                "tags": [
+                    "Notes(CRUD Operation)"
+                ],
+                "description": "Get all Notes",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Get all Notes"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/{id}": {
+            "get": {
+                "tags": [
+                    "Notes(CRUD Operation)"
+                ],
+                "description": "Get Note By Id",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Note Created"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
         }
     },
     "definitions": {
@@ -189,6 +277,20 @@
             "type": "object",
             "properties": {
                 "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "CreateNote": {
+            "type": "object",
+            "properties": {
+                "Title": {
+                    "type": "string"
+                },
+                "Descreption": {
+                    "type": "string"
+                },
+                "Color": {
                     "type": "string"
                 }
             }
