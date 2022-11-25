@@ -222,7 +222,37 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Note Created"
+                        "description": "Get Note By Id"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Notes(CRUD Operation)"
+                ],
+                "description": "Delete Note By Id",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Delete Note By Id"
                     },
                     "500": {
                         "description": "Internal Server Error"
