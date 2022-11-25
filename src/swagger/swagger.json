@@ -35,7 +35,7 @@
                         "in": "body",
                         "description": "User",
                         "schema": {
-                            "$ref": "#/UserRegistration/User"
+                            "$ref": "#/definitions/Register"
                         }
                     }
                 ],
@@ -64,7 +64,7 @@
                         "in": "body",
                         "description": "User",
                         "schema": {
-                            "$ref": "#/UserLogin/User"
+                            "$ref": "#/definitions/login"
                         }
                     }
                 ],
@@ -82,21 +82,8 @@
             }
         }
     },
-    "UserLogin": {
-        "User": {
-            "type": "object",
-            "properties": {
-                "email": {
-                    "type": "string"
-                },
-                "password": {
-                    "type": "string"
-                }
-            }
-        }
-    },
-    "UserRegistration": {
-        "User": {
+    "definitions": {
+        "Register": {
             "type": "object",
             "properties": {
                 "firstName": {
@@ -105,6 +92,17 @@
                 "lastName": {
                     "type": "string"
                 },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "login": {
+            "type": "object",
+            "properties": {
                 "email": {
                     "type": "string"
                 },

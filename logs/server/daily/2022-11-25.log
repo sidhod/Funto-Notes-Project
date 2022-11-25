@@ -1,0 +1,15 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T02:58:36.385Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T02:58:46.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:21:42.114Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T03:21:51.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:46:21.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:46:32.985Z"}
+error: Could not connect to the database. read ECONNRESET {"name":"MongoNetworkError","stack":"Error: read ECONNRESET\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-11-25T03:46:41.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:47:06.427Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T03:47:14.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:48:33.806Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T03:48:42.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:49:29.925Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T03:49:37.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:49:48.862Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T03:49:57.828Z"}
