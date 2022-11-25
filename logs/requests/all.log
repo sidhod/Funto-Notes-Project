@@ -3986,3 +3986,283 @@ info: ::1 - - [25/Nov/2022:03:57:22 +0000] "GET /api-docs/favicon-32x32.png HTTP
 
 info: ::1 - - [25/Nov/2022:03:58:29 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 639 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
 
+info: ::1 - - [25/Nov/2022:08:24:39 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:24:40 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:24:40 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:24:40 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 4590 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:24:40 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:37:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:37:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:37:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:37:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5495 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:37:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:37:52 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:38:45 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:38:45 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Nov/2022:08:38:45 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5517 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:38:45 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:38:45 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:38:46 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+error: uncaughtException: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundo-notes-project\src\/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14) {"date":"Fri Nov 25 2022 14:12:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":249043},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18971410,"external":52810619,"heapTotal":115650560,"heapUsed":88771488,"rss":151302144},"pid":17524,"uid":null,"version":"v16.18.0"},"stack":"SyntaxError: E:\\express\\fundo-notes-project\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\src\\/index.js:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1223,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundo-notes-project\\src\\/index.js","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false}]}
+error: uncaughtException: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundo-notes-project\src\/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14) {"date":"Fri Nov 25 2022 14:12:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":249068},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19122987,"external":39746470,"heapTotal":115126272,"heapUsed":93049552,"rss":150106112},"pid":19352,"uid":null,"version":"v16.18.0"},"stack":"SyntaxError: E:\\express\\fundo-notes-project\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\src\\/index.js:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1223,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundo-notes-project\\src\\/index.js","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false}]}
+info: ::1 - - [25/Nov/2022:08:45:18 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:45:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:45:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:45:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5650 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:45:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:45:19 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:48:26 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:49:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 336 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:49:36 +0000] "POST /api/v1/users/logins HTTP/1.1" 200 254 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:50:57 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:51:48 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:53:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:53:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:53:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:53:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:53:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:53:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:54:07 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:54:43 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:29 +0000] "POST /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:38 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5649 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:55:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:08:56:15 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:00:16 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:01:57 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:01:59 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:11 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:11 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:11 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:11 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:11 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:12 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:03:46 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:04:29 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:04:59 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:06:14 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:08:37 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:08:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:08:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:08:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:08:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:08:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:09:26 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:10:14 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:17:43 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:17:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:17:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:17:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:17:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:18:14 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2882 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:19:03 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:20:33 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:21:31 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5649 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 312217 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144966 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1061579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:41:41 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:42:47 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2874 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:43:33 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:45:19 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:48:52 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:52:57 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:52:57 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:52:57 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:52:57 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:52:57 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:52:58 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:53:34 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2874 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:54:53 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:13 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:13 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:13 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5657 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:13 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:13 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:58:51 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2874 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:09:59:30 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 326 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:24 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:24 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:24 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5649 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:24 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:24 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:24 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:00:52 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2874 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:30 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:51 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:56 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 400 40 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:58 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:58 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:58 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5657 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:58 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:58 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:01:58 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:02:58 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 2874 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Nov/2022:10:03:38 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 202 326 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+

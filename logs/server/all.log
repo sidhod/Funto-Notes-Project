@@ -26855,3 +26855,99 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T0
 info: Connected to the database. {"timestamp":"2022-11-25T03:57:01.732Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:57:22.358Z"}
 info: Connected to the database. {"timestamp":"2022-11-25T03:57:31.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:24:23.379Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:24:34.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:36:59.234Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:37:09.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:37:51.393Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:38:01.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:38:45.164Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:38:54.877Z"}
+error: uncaughtException: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundo-notes-project\src\/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14) {"date":"Fri Nov 25 2022 14:12:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":249043},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18960722,"external":52799891,"heapTotal":115650560,"heapUsed":88671544,"rss":150671360},"pid":17524,"uid":null,"version":"v16.18.0"},"stack":"SyntaxError: E:\\express\\fundo-notes-project\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\src\\/index.js:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)","timestamp":"2022-11-25T08:42:08.712Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1223,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundo-notes-project\\src\\/index.js","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false}]}
+error: uncaughtException: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: E:\express\fundo-notes-project\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\express\fundo-notes-project\src\/index.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Module._compile (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.newLoader [as .js] (E:\express\fundo-notes-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\node\src\_babel-node.ts:214:12)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14) {"date":"Fri Nov 25 2022 14:12:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":249068},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19112299,"external":39735742,"heapTotal":115126272,"heapUsed":92949608,"rss":149344256},"pid":19352,"uid":null,"version":"v16.18.0"},"stack":"SyntaxError: E:\\express\\fundo-notes-project\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1223:39)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\src\\/index.js:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Module._compile (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Object.newLoader [as .js] (E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:214:12)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)","timestamp":"2022-11-25T08:42:33.407Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1223,"method":".json","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1057,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\express\\fundo-notes-project\\src\\/index.js","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false},{"column":24,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1209,"method":".js","native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1033,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":868,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":214,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1155,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:42:56.486Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:43:06.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:44:08.767Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:44:18.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:45:04.554Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:45:13.961Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T08:48:26.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:53:09.923Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:53:19.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:55:22.189Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:55:31.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:16:07.293Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:279:19)","syscall":"querySrv","timestamp":"2022-11-25T09:16:07.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:16:37.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:17:23.606Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:17:34.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:41:04.681Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:41:14.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:52:31.891Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:52:42.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:56:07.393Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:56:16.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:56:57.609Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:57:05.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:58:13.440Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:58:22.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:00:17.834Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:00:26.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:01:48.662Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:01:57.867Z"}

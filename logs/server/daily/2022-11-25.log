@@ -25,3 +25,63 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T0
 info: Connected to the database. {"timestamp":"2022-11-25T03:57:01.732Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T03:57:22.358Z"}
 info: Connected to the database. {"timestamp":"2022-11-25T03:57:31.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:24:23.379Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:24:34.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:36:59.234Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:37:09.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:37:51.393Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:38:01.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:38:45.164Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:38:54.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:42:56.486Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:43:06.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:44:08.767Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:44:18.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:45:04.554Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:45:13.961Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-25T08:48:26.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:53:09.923Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:53:19.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T08:55:22.189Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T08:55:31.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:16:07.293Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:279:19)","syscall":"querySrv","timestamp":"2022-11-25T09:16:07.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:16:37.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:17:23.606Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:17:34.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:41:04.681Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:41:14.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:52:31.891Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:52:42.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:56:07.393Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:56:16.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:56:57.609Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:57:05.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T09:58:13.440Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T09:58:22.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:00:17.834Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:00:26.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-25T10:01:48.662Z"}
+info: Connected to the database. {"timestamp":"2022-11-25T10:01:57.867Z"}

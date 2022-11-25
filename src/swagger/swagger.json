@@ -109,6 +109,43 @@
                     }
                 }
             }
+        },
+        "/users/resetpwd": {
+            "put": {
+                "tags": [
+                    "User (Operations For User)"
+                ],
+                "description": "Reset New Password",
+                "parameters": [
+                    {
+                        "name": "Reset password",
+                        "in": "body",
+                        "description": "Reset new password",
+                        "schema": {
+                            "$ref": "#/definitions/resetpwd"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Password updated successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
         }
     },
     "definitions": {
@@ -147,6 +184,21 @@
                     "type": "string"
                 }
             }
+        },
+        "resetpwd": {
+            "type": "object",
+            "properties": {
+                "password": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "authorization",
+            "in": "header"
         }
     }
 }
