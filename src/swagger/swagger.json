@@ -263,6 +263,44 @@
                         "JWT": []
                     }
                 ]
+            },
+            "put": {
+                "tags": [
+                    "Notes(CRUD Operation)"
+                ],
+                "description": "Update Note By Id",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "Update Note",
+                        "in": "body",
+                        "description": "Note",
+                        "schema": {
+                            "$ref": "#/definitions/CreateNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Delete Note By Id"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
             }
         }
     },
