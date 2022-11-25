@@ -80,6 +80,35 @@
                     }
                 }
             }
+        },
+        "/users/forgotpwd": {
+            "post": {
+                "tags": [
+                    "User (Operations For User)"
+                ],
+                "description": "Forgot Password",
+                "parameters": [
+                    {
+                        "name": "Forgot Password",
+                        "in": "body",
+                        "description": "User",
+                        "schema": {
+                            "$ref": "#/definitions/forgotpwd"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Send mail Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                }
+            }
         }
     },
     "definitions": {
@@ -107,6 +136,14 @@
                     "type": "string"
                 },
                 "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "forgotpwd": {
+            "type": "object",
+            "properties": {
+                "email": {
                     "type": "string"
                 }
             }
