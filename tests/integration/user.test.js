@@ -2,7 +2,6 @@ import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
 import app from '../../src/index';
-
 describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
@@ -10,7 +9,6 @@ describe('User APIs Test', () => {
         mongoose.connection.collections[collection].deleteOne(() => { });
       }
     };
-
     const mongooseConnect = async () => {
       await mongoose.connect(process.env.DATABASE_TEST);
       clearCollections();

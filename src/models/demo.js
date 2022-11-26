@@ -1,7 +1,14 @@
-let numbers = [1, 2, 3, 4, 5, 6];
-console.log(numbers.slice(1, 4));
-let obj = {
-    Name: "sai",
-    lastname: "kamble"
-};
-console.log(obj);
+let str = "India Is My country";
+let sp = str.split(" ");
+let reverse = sp.reverse();
+let join = reverse.join(" ");
+console.log(join);
+
+
+let a = []
+for (let i = str.length - 1; i >= 0; i--) {
+
+    a.push(str[i]);
+}
+console.log(a);
+console.log(a.join(""));

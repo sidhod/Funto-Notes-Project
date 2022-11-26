@@ -7,12 +7,6 @@
     },
     "host": "localhost:3000",
     "basePath": "/api/v1/",
-    "tags": [
-        {
-            "name": "CLI",
-            "description": "Creating New User"
-        }
-    ],
     "schemes": [
         "http"
     ],
@@ -279,6 +273,7 @@
                     {
                         "name": "Update Note",
                         "in": "body",
+                        "required": false,
                         "description": "Note",
                         "schema": {
                             "$ref": "#/definitions/CreateNote"
@@ -290,7 +285,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Delete Note By Id"
+                        "description": "Update Note By Id"
                     },
                     "500": {
                         "description": "Internal Server Error"
