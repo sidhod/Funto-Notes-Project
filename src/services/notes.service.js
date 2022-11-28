@@ -1,23 +1,32 @@
 import { empty } from '@hapi/joi/lib/base';
+import { client } from '../config/redis';
 import User from '../models/notes.model';
 //add new note
 export const addNote = async (body) => {
+    await client.del('getNotes');
+    await client.del('');
     const data = await User.create(body);
     return data;
 };
 //get all notes
 export const allNotes = async (UserID) => {
+
     const data = await User.find({ UserID });
+    console.log("data type===================================>", typeof data);
+    let redisdata = await client.set('getNotes', JSON.stringify(data));
+    console.log("data type===================================>", typeof redisdata);
     return data;
 };
 //get single note
 export const getNote = async (id, UserID) => {
     const data = await User.findById({ _id: id, UserID: UserID });
+    // await client.set('getNotesById', JSON.stringify(data));
     return data;
 };
 //delete single user
 export const deleteNote = async (id, UserID) => {
     await User.findByIdAndDelete({ _id: id, UserID: UserID });
+    await client.del('getNotes');
     return '';
 };
 //update single Note
@@ -32,6 +41,7 @@ export const updateNote = async (id, UserID, body) => {
             new: true
         }
     );
+    await client.del('getNotes');
     return data;
 };
 
@@ -63,6 +73,7 @@ export const updateisArchivedField = async (id, UserID) => {
         }
 
     );
+    await client.del('getNotes');
     return data;
 };
 //update isDelete Field
@@ -94,5 +105,6 @@ export const updateisDeletedField = async (id, UserID) => {
         }
 
     );
+    await client.del('getNotes');
     return data;
 };
