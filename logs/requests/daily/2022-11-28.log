@@ -52,3 +52,5 @@ info: ::1 - - [28/Nov/2022:12:50:41 +0000] "GET /api/v1/notes/6384aa3ebf30ef23f4
 
 info: ::1 - - [28/Nov/2022:12:56:52 +0000] "GET /api/v1/notes HTTP/1.1" 200 750 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [28/Nov/2022:13:00:39 +0000] "GET /api/v1/notes/6384aa3ebf30ef23f498591a HTTP/1.1" 200 294 "-" "PostmanRuntime/7.29.2"
+

@@ -20,7 +20,7 @@ export const allNotes = async (UserID) => {
 //get single note
 export const getNote = async (id, UserID) => {
     const data = await User.findById({ _id: id, UserID: UserID });
-    // await client.set('getNotesById', JSON.stringify(data));
+    await client.set('getNotesById', JSON.stringify(data));
     return data;
 };
 //delete single user
