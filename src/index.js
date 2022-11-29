@@ -32,7 +32,6 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJSDoc));
 
 database();
 redis()
-console.log(redis);
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);

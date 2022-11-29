@@ -1,6 +1,6 @@
 import { client } from "../config/redis";
 export const redisCheck = async (req, res, next) => {
-    const data = await client.get('getNote');
+    const data = await client.get('getNotes');
     console.log(typeof data);
 
     if (data != null) {

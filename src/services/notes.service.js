@@ -4,7 +4,6 @@ import User from '../models/notes.model';
 //add new note
 export const addNote = async (body) => {
     await client.del('getNotes');
-    await client.del('');
     const data = await User.create(body);
     return data;
 };
