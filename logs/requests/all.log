@@ -5432,3 +5432,5 @@ info: ::1 - - [01/Dec/2022:03:39:13 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-
 
 info: ::1 - - [01/Dec/2022:11:26:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 330 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [01/Dec/2022:11:30:45 +0000] "POST /api/v1/users/register HTTP/1.1" 201 335 "-" "PostmanRuntime/7.29.2"
+
