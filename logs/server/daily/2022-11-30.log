@@ -1,0 +1,896 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T04:52:12.364Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T04:52:23.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T04:52:35.839Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T04:52:44.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T05:06:58.258Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T05:07:08.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T05:07:52.439Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T05:08:01.309Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T13:40:38.995Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T13:40:49.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T13:46:54.093Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T13:47:00.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T13:47:27.767Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T13:47:37.869Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan2019@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T13:47:46.145Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T13:47:46.200Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan2019@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T13:47:56.518Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T13:47:56.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T13:49:14.514Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T13:49:25.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T13:50:47.575Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T13:50:57.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:29:27.215Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:29:37.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:30:39.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:30:46.358Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:30:55.632Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:32:37.307Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:32:46.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:33:52.916Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:34:03.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:34:13.645Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:34:22.563Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan1997@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T14:34:23.206Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T14:34:23.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:34:52.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:34:59.321Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:35:02.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:35:29.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:35:39.950Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:35:49.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:36:52.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:37:05.527Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:37:14.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:38:29.974Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:38:39.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:39:17.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:39:57.052Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:40:00.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:41:53.359Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:42:03.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:43:23.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:43:29.644Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:43:38.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:45:01.108Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:45:10.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:45:58.347Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:46:06.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:47:35.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:47:47.422Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:47:56.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:49:27.346Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:49:36.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:52:22.909Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:52:32.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:53:05.593Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:53:14.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:53:28.735Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:53:38.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:59:11.025Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:59:20.187Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T14:59:49.919Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T14:59:58.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:00:05.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:00:17.430Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:00:26.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:01:15.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:01:24.585Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:01:34.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:02:50.452Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:03:00.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:04:17.898Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:04:27.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:04:34.548Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:04:43.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:05:20.737Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:05:30.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:05:55.723Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:06:04.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:06:17.185Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:06:25.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:08:46.504Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:08:55.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:09:41.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:09:51.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:10:02.282Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:10:07.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:11:02.130Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:11:11.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:22:24.612Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:22:33.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:23:16.224Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:23:24.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:23:36.129Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:23:45.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:24:41.892Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:24:49.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:24:56.912Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:25:05.758Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:26:12.134Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:26:23.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:27:34.823Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:27:44.228Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:28:26.587Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:28:27.960Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:28:29.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:35:32.215Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:35:42.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:37:34.752Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:37:43.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:38:07.098Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:38:15.831Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhank2018@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:38:16.477Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:38:16.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:41:33.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:41:45.320Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:41:54.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:42:54.620Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:43:04.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:43:16.914Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:43:25.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:44:51.545Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:45:01.111Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "kirankamble061973@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:45:05.560Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:45:05.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:46:52.636Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:47:02.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:47:27.442Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:47:36.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:47:42.842Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:47:51.479Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sandeepbadakp1984@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:48:15.864Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:48:15.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:53:10.395Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:53:19.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:53:47.647Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:53:56.180Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:54:00.400Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:54:00.426Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:54:02.267Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:54:02.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T15:55:45.578Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T15:55:55.026Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:56:24.404Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:56:24.425Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:56:26.719Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:56:26.734Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:56:28.201Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:56:28.207Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:57:38.652Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:57:38.666Z"}
+error: 
+    status - 500 
+    message - ReferenceError: msg is not defined
+    at _callee$ (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:59:33)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at _reciver (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:62:2)
+    at reciver (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:31:30)
+    at _callee2$ (E:\express\fundo-notes-project\src\services\/user.service.js:23:16)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:58:34.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:00:08.813Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:00:18.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:03:11.146Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:03:20.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:05:59.917Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:06:09.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:06:21.097Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:06:29.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:07:19.173Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:07:28.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:09:12.478Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:09:21.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:12:21.430Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:12:33.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:13:48.713Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:13:58.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:14:47.533Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:14:56.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:17:36.699Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:17:42.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:19:05.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T16:19:14.022Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T16:19:23.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T17:58:20.281Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T17:58:31.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T17:59:17.358Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T17:59:26.283Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:01:15.920Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:01:25.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:01:45.486Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:01:54.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:02:24.755Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:02:34.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:09:12.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:09:28.029Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:09:37.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:14:37.514Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:14:45.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:19:14.989Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:19:24.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:21:30.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:21:37.851Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:21:46.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:24:51.968Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:25:01.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:26:23.732Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:26:32.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:27:13.495Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:27:21.920Z"}

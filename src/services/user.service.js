@@ -1,6 +1,7 @@
 import { empty } from '@hapi/joi/lib/base';
 import User from '../models/user.model';
 import { sendMail } from '../utils/user.util';
+import { sender, reciver } from '../utils/rabbitmq';
 const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 
@@ -17,6 +18,9 @@ export const newUserRegistration = async (body) => {
   const hash = bcrypt.hashSync(body.password, saltRounds);
   body.password = hash;
   const data = await User.create(body);
+  let data1 = JSON.stringify(data);
+  await sender(data1);
+  await reciver();
   return data;
 };
 

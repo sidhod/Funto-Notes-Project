@@ -1,5 +1,8 @@
+import { json } from 'express';
+import { sendRegistrationMail } from './user.registrationemail';
+import { sendMail } from './user.util';
 var amqp = require('amqplib/callback_api');
-const sender = () => {
+export const sender = (data) => {
     amqp.connect('amqp://localhost', function (error0, connection) {
         if (error0) {
             throw error0;
@@ -10,7 +13,7 @@ const sender = () => {
             }
 
             var queue = 'hello';
-            var msg = 'Hello World!';
+            var msg = data;
 
             channel.assertQueue(queue, {
                 durable: false
@@ -19,13 +22,9 @@ const sender = () => {
 
             console.log(" [x] Sent %s", msg);
         });
-        setTimeout(function () {
-            connection.close();
-            process.exit(0);
-        }, 500);
     });
 }
-const reciver = () => {
+export async function reciver() {
     amqp.connect('amqp://localhost', function (error0, connection) {
         if (error0) {
             throw error0;
@@ -42,14 +41,15 @@ const reciver = () => {
             });
 
             console.log(" [*] Waiting for messages in %s. To exit press CTRL+C", queue);
-
-            channel.consume(queue, function (msg) {
+            channel.consume(queue, async function (msg) {
                 console.log(" [x] Received %s", msg.content.toString());
+                let dataInJSON = JSON.parse(msg.content);
+                console.log("out", dataInJSON.email);
+                let send = await sendRegistrationMail(dataInJSON);
+                console.log("send========>", send);
             }, {
                 noAck: true
             });
         });
     });
 }
-sender();
-reciver();

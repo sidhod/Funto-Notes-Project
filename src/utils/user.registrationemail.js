@@ -15,10 +15,8 @@ const oAuth2Client = new google.auth.OAuth2(
 
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
-export async function sendMail(email, token) {
+export async function sendRegistrationMail(dataInJSON) {
     try {
-        console.log(token);
-        console.log(email);
         const accessToken = await oAuth2Client.getAccessToken();
 
 
@@ -36,10 +34,18 @@ export async function sendMail(email, token) {
 
         const mailOptions = {
             from: 'Sidhodhan Kamble <sidhodhank2018@gmail.com>',
-            to: email,
-            subject: 'Gmail api using to demo email',
-            text: 'Testing Gmail api for emails',
-            html: `<h1>Reset Your password <a href="http://localhost:3000/api/v1/users/resetpwd">Click here</a></h1>`
+            to: dataInJSON.email,
+            subject: 'Your Successfully Register In Fundoo Notes',
+            html: `<h2>Hello ${dataInJSON.firstName},<h2> 
+            <h3>Thank you for joining Fundoo Notes.<h3>
+            
+            <h3>We’d like to confirm that your account was created successfully. To access account click the link below.</h3>
+            <h3><b>Login IN Fundoo Notes <a href="http://localhost:3000/api/v1/users/logins">Click here</a></b></h3>
+            <h3>If you experience any issues logging into your account, reach out to us at ${dataInJSON.email}.</h3>
+    
+            <h3>Best,<h3>
+            <h3>The Fundoo Notes team<h3>
+            `
 
         };
 

@@ -1,0 +1,45 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:31:44.733Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:31:54.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:34:36.149Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:34:45.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:47:57.944Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:48:07.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:50:47.530Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:50:56.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:52:48.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:53:53.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:54:10.004Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:54:47.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T18:54:53.202Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\express\fundo-notes-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T18:55:42.357Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T18:55:49.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:08:57.455Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:09:07.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:10:39.901Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:10:49.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:11:32.686Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:11:41.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:12:16.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:12:32.076Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:12:40.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:13:27.941Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:13:36.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:13:52.533Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:14:01.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-30T19:15:02.763Z"}
+info: Connected to the database. {"timestamp":"2022-11-30T19:15:12.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-01T03:19:46.583Z"}
+info: Connected to the database. {"timestamp":"2022-12-01T03:20:08.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-01T03:30:07.976Z"}
+info: Connected to the database. {"timestamp":"2022-12-01T03:30:18.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-12-01T11:26:07.963Z"}
+info: Connected to the database. {"timestamp":"2022-12-01T11:26:18.177Z"}

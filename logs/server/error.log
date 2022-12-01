@@ -26329,3 +26329,1031 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-11-28T12:29:20.083Z"}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 19:14:04 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":447188},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18437620,"external":20407079,"heapTotal":123793408,"heapUsed":116877360,"rss":162934784},"pid":5936,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T13:44:04.571Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan2019@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T13:47:46.145Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T13:47:46.200Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan2019@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T13:47:56.518Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T13:47:56.532Z"}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:01:16 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":450020},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18408271,"external":20334194,"heapTotal":125628416,"heapUsed":119460208,"rss":163803136},"pid":1892,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:31:16.494Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:02:59 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":450123},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18558888,"external":21230145,"heapTotal":168882176,"heapUsed":123863568,"rss":207466496},"pid":17004,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:32:59.774Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan1997@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T14:34:23.206Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T14:34:23.216Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:13:23
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:04:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":450215},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18660556,"external":21361563,"heapTotal":173600768,"heapUsed":125047600,"rss":212639744},"pid":30744,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: data is not defined\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:13:23\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:34:31.881Z","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":13,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:13:23
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:05:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":450247},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18535536,"external":20405792,"heapTotal":173338624,"heapUsed":122470888,"rss":210792448},"pid":13696,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: data is not defined\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:13:23\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:35:04.160Z","trace":[{"column":23,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":13,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: a.toJSON is not a function
+TypeError: a.toJSON is not a function
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:49:41)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:13:39 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":450763},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18526700,"external":20399291,"heapTotal":173338624,"heapUsed":122745680,"rss":211140608},"pid":30352,"uid":null,"version":"v16.18.0"},"stack":"TypeError: a.toJSON is not a function\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:49:41)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:43:39.729Z","trace":[{"column":41,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":49,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: msg.content.length is not a function
+TypeError: msg.content.length is not a function
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:49:51)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:16:07 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":450911},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18547450,"external":20432493,"heapTotal":172027904,"heapUsed":122830232,"rss":210681856},"pid":31508,"uid":null,"version":"v16.18.0"},"stack":"TypeError: msg.content.length is not a function\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:49:51)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:46:07.632Z","trace":[{"column":51,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":49,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:22:42 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":451306},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18559804,"external":21314372,"heapTotal":172027904,"heapUsed":123924464,"rss":209731584},"pid":1636,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:52:42.452Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:23:14 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":451338},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18535571,"external":20434032,"heapTotal":169930752,"heapUsed":122571120,"rss":207716352},"pid":30000,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:53:15.010Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:23:38 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":451362},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18548129,"external":21298690,"heapTotal":165998592,"heapUsed":122648392,"rss":204836864},"pid":27736,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:53:39.080Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:29:20 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":451704},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18535612,"external":20380319,"heapTotal":173076480,"heapUsed":122565232,"rss":210636800},"pid":26916,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T14:59:20.931Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:18:47
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:30:27 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":451771},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18535571,"external":20429012,"heapTotal":170455040,"heapUsed":122547704,"rss":209027072},"pid":25140,"uid":null,"version":"v16.18.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])\n    at new NodeError (node:internal/errors:387:5)\n    at Function.from (node:buffer:328:9)\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:18:47\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T15:00:27.488Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":387,"method":null,"native":false},{"column":9,"file":"node:buffer","function":"Function.from","line":328,"method":"from","native":false},{"column":47,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":18,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: msg.content.data is not a function
+TypeError: msg.content.data is not a function
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:48:37)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:34:44 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":452027},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18526705,"external":20404614,"heapTotal":169930752,"heapUsed":122730008,"rss":208412672},"pid":27492,"uid":null,"version":"v16.18.0"},"stack":"TypeError: msg.content.data is not a function\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:48:37)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T15:04:44.302Z","trace":[{"column":37,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":48,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: a.data is not a function
+TypeError: a.data is not a function
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:49:31)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:36:05 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":452108},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18547455,"external":20388294,"heapTotal":173338624,"heapUsed":122835920,"rss":211800064},"pid":29768,"uid":null,"version":"v16.18.0"},"stack":"TypeError: a.data is not a function\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:49:31)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T15:06:05.199Z","trace":[{"column":31,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":49,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: a.data is not a function
+TypeError: a.data is not a function
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:49:31)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 20:36:26 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":452130},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18526705,"external":21297776,"heapTotal":172552192,"heapUsed":122736064,"rss":210829312},"pid":20740,"uid":null,"version":"v16.18.0"},"stack":"TypeError: a.data is not a function\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:49:31)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T15:06:26.477Z","trace":[{"column":31,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":49,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:26:12.134Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:26:23.947Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:28:26.587Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:28:27.960Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newUserValidator (E:\express\fundo-notes-project\src\validators\/user.validator.js:12:16)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\express\fundo-notes-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\fundo-notes-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\fundo-notes-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\fundo-notes-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:28:29.483Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhank2018@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:38:16.477Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:38:16.487Z"}
+error: uncaughtException: sbjbfweygbfh is not defined
+ReferenceError: sbjbfweygbfh is not defined
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:53:52)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 21:08:48 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":454072},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18389370,"external":20229465,"heapTotal":125628416,"heapUsed":119581536,"rss":164204544},"pid":1196,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: sbjbfweygbfh is not defined\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:53:52)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T15:38:49.335Z","trace":[{"column":52,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":53,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at channel.consume.noAck (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:53:49)
+    at Channel.BaseChannel.dispatchMessage (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content [as handleMessage] (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 21:12:24 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":454288},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18386455,"external":20310729,"heapTotal":125104128,"heapUsed":119151360,"rss":163364864},"pid":26144,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: token is not defined\n    at channel.consume.noAck (E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:53:49)\n    at Channel.BaseChannel.dispatchMessage (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content [as handleMessage] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T15:42:24.789Z","trace":[{"column":49,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":"channel.consume.noAck","line":53,"method":"noAck","native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":331,"method":"content [as handleMessage]","native":false},{"column":31,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "kirankamble061973@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:45:05.560Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:45:05.584Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sandeepbadakp1984@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:48:15.864Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:48:15.891Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:54:00.400Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:54:00.426Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:54:02.267Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:54:02.270Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:56:24.404Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:56:24.425Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:56:26.719Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:56:26.734Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:56:28.201Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:56:28.207Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Sidhodhandb22.users index: email_1 dup key: { email: "sidhodhan.kamble18@vit.edu" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-30T15:57:38.652Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\fundo-notes-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\fundo-notes-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\fundo-notes-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\fundo-notes-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\fundo-notes-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:646:15
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\index.js:265:14)
+    at next (E:\express\fundo-notes-project\node_modules\express\lib\router\route.js:136:14)
+    at _callee2$ (E:\express\fundo-notes-project\src\controllers\/user.controller.js:38:5)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:57:38.666Z"}
+error: 
+    status - 500 
+    message - ReferenceError: msg is not defined
+    at _callee$ (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:59:33)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at _reciver (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:62:2)
+    at reciver (E:\express\fundo-notes-project\src\utils\/rabbitmq.js:31:30)
+    at _callee2$ (E:\express\fundo-notes-project\src\services\/user.service.js:23:16)
+    at tryCatch (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\express\fundo-notes-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T15:58:34.909Z"}
+error: uncaughtException: msg is not defined
+ReferenceError: msg is not defined
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:48:45
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 23:44:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":463430},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19447395,"external":21282757,"heapTotal":175013888,"heapUsed":127433496,"rss":214433792},"pid":11316,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: msg is not defined\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:48:45\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T18:14:47.153Z","trace":[{"column":45,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":48,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: msg is not defined
+ReferenceError: msg is not defined
+    at E:\express\fundo-notes-project\src\utils\/rabbitmq.js:48:45
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:44:29
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:58:7
+    at E:\express\fundo-notes-project\node_modules\amqplib\lib\callback_model.js:73:5
+    at reply (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:105:16)
+    at Channel.C.accept (E:\express\fundo-notes-project\node_modules\amqplib\lib\channel.js:450:12)
+    at Connection.mainAccept [as accept] (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (E:\express\fundo-notes-project\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:578:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Nov 30 2022 23:50:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":463762},"process":{"argv":["node","E:\\express\\fundo-notes-project\\src\\index.js"],"cwd":"E:\\express\\fundo-notes-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18439568,"external":20362290,"heapTotal":125366272,"heapUsed":119781160,"rss":164098048},"pid":31172,"uid":null,"version":"v16.18.0"},"stack":"ReferenceError: msg is not defined\n    at E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js:48:45\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:44:29\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:58:7\n    at E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js:73:5\n    at reply (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:105:16)\n    at Channel.C.accept (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js:450:12)\n    at Connection.mainAccept [as accept] (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:578:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-11-30T18:20:19.250Z","trace":[{"column":45,"file":"E:\\express\\fundo-notes-project\\src\\utils\\/rabbitmq.js","function":null,"line":48,"method":null,"native":false},{"column":29,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":44,"method":null,"native":false},{"column":7,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":58,"method":null,"native":false},{"column":5,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\callback_model.js","function":null,"line":73,"method":null,"native":false},{"column":16,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"reply","line":105,"method":null,"native":false},{"column":12,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":450,"method":"accept","native":false},{"column":33,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"E:\\express\\fundo-notes-project\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":578,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\express\fundo-notes-project\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-30T18:55:42.357Z"}
